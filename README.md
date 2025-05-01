@@ -81,7 +81,7 @@ modified-gravity-crosscorr/
 ## 📚 Resources
 
 - [CAMB Documentation](https://camb.readthedocs.io)
-- [MGmu Emulator GitHub](https://github.com/ntessore/mg-mu-sigma)
+- [MGmu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
 
