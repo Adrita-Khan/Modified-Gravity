@@ -47,7 +47,7 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 - [ ] Familiarization with [HEALPix](https://healpix.sourceforge.io) and the `healpy` Python package for spherical map handling  
 - [ ] A review of key modified gravity theories (e.g., f(R), Horndeski, DGP) is planned  
 - [ ] The operation of [CAMB](https://camb.info) is to be studied and implemented  
-- [ ] The [MGmu Emulator](https://github.com/ntessore/mg-mu-sigma) will be explored for rapid computation of matter power spectra  
+- [ ] The [MGmu Emulator](https://github.com/LSSTDESC/mgemu) will be explored for rapid computation of matter power spectra  
 
 ### 🧠 Project Sketch
 
