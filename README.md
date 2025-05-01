@@ -1,10 +1,10 @@
-# 🌀 Modified Gravity with Cross-Correlation
+# Modified Gravity with Cross-Correlation
 
 Welcome to **Modified Gravity** — a project developed to test and constrain modified gravity (MG) theories through cross-correlations between galaxy surveys and CMB lensing measurements. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
 
 ---
 
-## ✨ Why Modified Gravity?
+## Why Modified Gravity?
 
 The current cosmological framework — ΛCDM (Lambda Cold Dark Matter) — provides an excellent fit to a wide range of observations; however, it is built upon dark energy and dark matter, neither of which has been directly detected to date. As an alternative, modified gravity theories have been proposed to explain cosmic acceleration and the formation of large-scale structures without the invocation of unknown dark components.
 
@@ -12,7 +12,7 @@ These theories often involve modifications to the Poisson equation and alter the
 
 ---
 
-## 🔀 Why Cross-Correlation?
+## Why Cross-Correlation?
 
 Cross-correlation techniques are employed to enhance the testing of gravity models for several key reasons:
 
@@ -27,7 +27,7 @@ These combined observables are particularly sensitive to the growth of structure
 
 ---
 
-## 📝 Project Description
+## Project Description
 
 The aim of this project is to test modified gravity theories by computing and analyzing cross-correlated power spectra:
 
@@ -39,9 +39,9 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 
 ---
 
-## 🎯 Goals
+## Goals
 
-### 🔍 Literature Review
+### Literature Review
 
 - [ ] A review of the Power Spectrum and Two-Point Correlation Function (2PCF) under linear theory is to be conducted  
 - [ ] Familiarization with [HEALPix](https://healpix.sourceforge.io) and the `healpy` Python package for spherical map handling  
@@ -49,7 +49,7 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 - [ ] The operation of [CAMB](https://camb.info) is to be studied and implemented  
 - [ ] The [MGmu Emulator](https://github.com/LSSTDESC/mgemu) will be explored for rapid computation of matter power spectra  
 
-### 🧠 Project Sketch
+### Project Sketch
 
 - [ ] Custom functions will be written to calculate:
   - Galaxy–Galaxy power spectrum  
