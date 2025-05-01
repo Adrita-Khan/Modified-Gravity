@@ -1,41 +1,41 @@
 # 🌀 Modified Gravity with Cross-Correlation
 
-Welcome to **Modified Gravity** — a project focused on testing and constraining modified gravity (MG) theories using cross-correlations between galaxy surveys and CMB lensing measurements. This repository includes everything you need to understand, run, and contribute to the project, along with key resources and development goals.
+Welcome to **Modified Gravity** — a project developed to test and constrain modified gravity (MG) theories through cross-correlations between galaxy surveys and CMB lensing measurements. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
 
 ---
 
 ## ✨ Why Modified Gravity?
 
-The current cosmological model — ΛCDM (Lambda Cold Dark Matter) — fits a wide range of data remarkably well, but it relies on dark energy and dark matter, which have not yet been directly detected. Modified gravity theories aim to explain cosmic acceleration and structure formation without invoking unknown dark components.
+The current cosmological framework — ΛCDM (Lambda Cold Dark Matter) — provides an excellent fit to a wide range of observations; however, it is built upon dark energy and dark matter, neither of which has been directly detected to date. As an alternative, modified gravity theories have been proposed to explain cosmic acceleration and the formation of large-scale structures without the invocation of unknown dark components.
 
-These theories often alter the Poisson equation and the relationship between the gravitational potentials, leading to distinctive signatures in the large-scale structure (LSS) of the Universe. As a result, MG theories can be tested through cosmological observables such as galaxy clustering and weak lensing.
+These theories often involve modifications to the Poisson equation and alter the relationship between gravitational potentials. Such changes manifest as distinctive signatures within the large-scale structure (LSS) of the Universe. Consequently, MG theories can be constrained through observables such as galaxy clustering and weak lensing.
 
 ---
 
 ## 🔀 Why Cross-Correlation?
 
-Cross-correlation enhances our ability to test gravity models by:
+Cross-correlation techniques are employed to enhance the testing of gravity models for several key reasons:
 
-- **Breaking degeneracies** between cosmological parameters (e.g., galaxy bias vs. growth rate).
-- **Minimizing systematics** — uncorrelated noise and systematics tend to cancel in cross-correlations.
-- **Enhancing signal** by combining information from multiple tracers of the gravitational potential:
-  - **Galaxy-Galaxy Clustering**
+- **Degeneracies** between cosmological parameters (e.g., galaxy bias vs. growth rate) can be broken.
+- **Systematic errors** are mitigated, as uncorrelated noise and systematics tend to cancel out across different datasets.
+- **Signal strength** is amplified by the joint analysis of multiple tracers of the gravitational potential:
+  - **Galaxy–Galaxy Clustering**
   - **Galaxy–CMB Lensing Cross-Correlation**
   - **CMB Lensing Auto-Power Spectrum**
 
-These observables are sensitive to the growth of structure and gravitational lensing, making them powerful tools for probing MG theories.
+These combined observables are particularly sensitive to the growth of structure and the effects of gravitational lensing, rendering them effective tools for probing modified gravity.
 
 ---
 
 ## 📝 Project Description
 
-This project aims to test modified gravity theories by computing and interpreting cross-correlated power spectra:
+The aim of this project is to test modified gravity theories by computing and analyzing cross-correlated power spectra:
 
-- Galaxy-Galaxy power spectrum
-- Galaxy–CMB lensing cross-power spectrum
-- CMB Lensing–CMB Lensing auto-power spectrum
+- Galaxy–Galaxy power spectrum  
+- Galaxy–CMB lensing cross-power spectrum  
+- CMB Lensing–CMB Lensing auto-power spectrum  
 
-We use both theoretical modeling (CAMB, emulators) and observational specifications from LSST/DESC and Simons Observatory.
+Both theoretical modeling (e.g., using CAMB and emulators) and observational specifications from LSST/DESC and the Simons Observatory are utilized.
 
 ---
 
@@ -43,22 +43,22 @@ We use both theoretical modeling (CAMB, emulators) and observational specificati
 
 ### 🔍 Literature Review
 
-- [ ] Understand Power Spectrum / Two-Point Correlation Function (2PCF) under linear theory
-- [ ] Familiarize with [HEALPix](https://healpix.sourceforge.io) / `healpy` for map handling
-- [ ] Review key theories of Modified Gravity (e.g., f(R), Horndeski, DGP)
-- [ ] Learn how to run [CAMB](https://camb.info)
-- [ ] Explore [MGmu Emulator](https://github.com/ntessore/mg-mu-sigma) for fast matter power spectra
+- [ ] A review of the Power Spectrum and Two-Point Correlation Function (2PCF) under linear theory is to be conducted  
+- [ ] Familiarization with [HEALPix](https://healpix.sourceforge.io) and the `healpy` Python package for spherical map handling  
+- [ ] A review of key modified gravity theories (e.g., f(R), Horndeski, DGP) is planned  
+- [ ] The operation of [CAMB](https://camb.info) is to be studied and implemented  
+- [ ] The [MGmu Emulator](https://github.com/ntessore/mg-mu-sigma) will be explored for rapid computation of matter power spectra  
 
 ### 🧠 Project Sketch
 
-- [ ] Write functions to calculate:
-  - Galaxy–Galaxy power spectrum
-  - Galaxy–CMB lensing cross-spectrum
-  - CMB Lensing–Lensing auto-power spectrum
-- [ ] Optimize pipeline with [JAX](https://github.com/google/jax) or NN interpolation
-- [ ] Integrate realistic survey specs (e.g., LSST/DESC, Simons Obs: number density, redshift distributions)
-- [ ] Estimate and plot theoretical and observational power spectra
-- [ ] Interpret results in the context of MG theories
+- [ ] Custom functions will be written to calculate:
+  - Galaxy–Galaxy power spectrum  
+  - Galaxy–CMB lensing cross-power spectrum  
+  - CMB Lensing–CMB Lensing auto-power spectrum  
+- [ ] The computational pipeline may be optimized using [JAX](https://github.com/google/jax) or neural network-based interpolation  
+- [ ] Realistic survey specifications (e.g., number density and redshift distributions from LSST/DESC and Simons Observatory) will be integrated  
+- [ ] Theoretical and observational power spectra will be estimated and visualized  
+- [ ] Interpretations will be made in the context of selected MG models  
 
 ---
 
