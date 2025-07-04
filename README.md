@@ -1,6 +1,6 @@
 # Modified Gravity with Cross-Correlation
 
-Welcome to **Modified Gravity** — a project developed to test and constrain modified gravity (MG) theories through cross-correlations between galaxy surveys and CMB lensing measurements. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
+Welcome to **Modified Gravity**. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
 
 ---
 
