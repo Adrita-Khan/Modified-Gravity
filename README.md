@@ -52,6 +52,29 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 
 ## Goals
 
+Here's a new section for your README that clearly explains **how your project will be used for forecasting** the viability of modified gravity models, in a formal and academic tone:
+
+---
+
+### 🔮 Forecasting Capability
+
+A key objective of this project is to **forecast the constraining power of upcoming cosmological surveys** on modified gravity (MG) theories. By simulating mock observations and comparing theoretical predictions against survey specifications, the framework enables prospective evaluation of how well future data can discriminate between General Relativity and alternative gravity models.
+
+The forecasting pipeline includes the following components:
+
+* **Synthetic Observables**: Theoretical power spectra — including Galaxy–Galaxy, Galaxy–CMB Lensing, and CMB Lensing auto-correlations — are generated under various MG models using tools such as **CAMB**, **MGmu Emulator**, and **parameterized post-Friedmann (PPF)** formalisms.
+
+* **Survey Modeling**: Realistic survey characteristics (e.g., sky coverage, galaxy number density, redshift binning, shape noise) from projects such as **LSST/DESC** and the **Simons Observatory** are incorporated through configuration files. These specifications influence the expected noise levels and window functions in the simulated measurements.
+
+* **Fisher Matrix Analysis**: A Fisher information matrix approach is used to quantify the precision with which cosmological and MG parameters can be constrained. This enables comparison of expected parameter errors across different models and survey strategies.
+
+* **Bias and Degeneracy Evaluation**: By exploring the parameter space of modified gravity (e.g., $f_{R0}$ in f(R), $\alpha_M, \alpha_K, \alpha_B$ in Horndeski), the project can assess degeneracies with standard ΛCDM parameters and evaluate potential biases in inference if MG effects are neglected.
+
+* **Emulator-Based Acceleration**: For faster exploration of the parameter space, the project supports neural-network-based interpolation using the **MGmu Emulator**, allowing rapid generation of spectra across MG parameter grids.
+
+By combining these elements, the pipeline serves as a **forecasting tool for MG detectability**: it determines whether a given MG model would leave statistically significant imprints in the cross-correlation observables of next-generation surveys.
+
+
 ### Literature Review
 
 - [ ] A review of the Power Spectrum and Two-Point Correlation Function (2PCF) under linear theory is to be conducted  
