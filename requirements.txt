@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+pandas
+camb
+healpy
+astropy
+h5py
+jax
+jaxlib
+seaborn
+corner
+tqdm
+getdist
+cosmopower
+cython
+pocomc
