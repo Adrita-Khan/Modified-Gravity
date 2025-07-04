@@ -65,16 +65,16 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 ## 📁 Repository Structure
 
 ```bash
-modified-gravity-crosscorr/
-├── data/                # Simulated or observed data inputs
-├── notebooks/           # Exploratory Jupyter notebooks
-├── src/                 # Core functions for spectra calculation
-│   └── cross_power.py   # Functions for GG, GCMB, CMBCMB spectra
-├── plots/               # Output plots and figures
-├── configs/             # Survey specs and theory parameters
-├── README.md            # This file
-├── requirements.txt     # Dependencies (CAMB, healpy, etc.)
-└── environment.yml      # Conda environment
+
+├── data/                  # Simulated or observed data inputs
+├── notebooks/             # Exploratory Jupyter notebooks
+├── src/                   # Core functions for spectra calculation
+│   └── cross_power.py     # Functions for GG, GCMB, CMBCMB spectra
+├── plots/                 # Output plots and figures
+├── configs/               # Survey specs and theory parameters
+├── Dockerfile             # Docker environment file (GPU enabled)
+├── README.md              # Project documentation
+├── requirements.txt       # Dependencies (CAMB, healpy, etc.)
 
 ```
 
