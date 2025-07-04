@@ -12,6 +12,17 @@ These theories often involve modifications to the Poisson equation and alter the
 
 ---
 
+### Theories to be Tested
+
+The project aims to test and constrain the following leading classes of modified gravity theories:
+
+* **f(R) Gravity**: A class of scalar-tensor theories where the Ricci scalar $R$ in the Einstein-Hilbert action is replaced by a function $f(R)$. It predicts scale-dependent growth rates and modified lensing potentials.
+
+* **Horndeski Theories**: The most general scalar-tensor theories with second-order field equations. They encompass many MG models and introduce modifications via kinetic and derivative couplings of a scalar field.
+
+
+---
+
 ## Why Cross-Correlation?
 
 Cross-correlation techniques are employed to enhance the testing of gravity models for several key reasons:
