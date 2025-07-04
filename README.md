@@ -52,10 +52,6 @@ Both theoretical modeling (e.g., using CAMB and emulators) and observational spe
 
 ## Goals
 
-Here's a new section for your README that clearly explains **how your project will be used for forecasting** the viability of modified gravity models, in a formal and academic tone:
-
----
-
 ### 🔮 Forecasting Capability
 
 A key objective of this project is to **forecast the constraining power of upcoming cosmological surveys** on modified gravity (MG) theories. By simulating mock observations and comparing theoretical predictions against survey specifications, the framework enables prospective evaluation of how well future data can discriminate between General Relativity and alternative gravity models.
