@@ -54,6 +54,16 @@ The MCMC sampling uses **5 parameters**:
    * This parameter is defined in the dictionary but **not included** in the MCMC sampling
    * It would typically measure when the first stars reionized the universe
 
+## Missing? 
+
+- **σ₈** (clustering amplitude) — sometimes derived from **A<sub>s</sub>** and **n<sub>s</sub>**
+
+- **w** (dark energy equation of state) — if going beyond ΛCDM
+
+- **Ω<sub>m</sub>** — often computed as: **Ω<sub>c</sub>h² + Ω<sub>b</sub>h² / h²**
+
+
+
 ## Parameter Conversions in the Code
 
 The code converts between different parameterizations:
