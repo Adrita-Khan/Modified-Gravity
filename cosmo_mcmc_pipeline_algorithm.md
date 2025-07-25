@@ -365,7 +365,7 @@ Generate summary files:
 4. Goodness-of-fit statistics
 ```
 
-#### Step 15.2: Publication-Quality Figures
+#### Step 15.2: Figures
 ```
 Save plots in multiple formats:
 1. PNG for presentations (300 DPI)
@@ -381,11 +381,6 @@ Save plots in multiple formats:
 - **Limber integrals**: O(N_ℓ × N_k)
 - **MCMC sampling**: O(N_samples × likelihood_cost)
 - **Total runtime**: ~minutes to hours depending on N_samples
-
-### Memory Requirements
-- **Sample storage**: ~MB for typical runs
-- **Covariance matrices**: O(N_ℓ²) storage
-- **Power spectra**: O(N_k × N_z) per model
 
 ### Scalability Considerations
 - Can parallelize likelihood evaluations
