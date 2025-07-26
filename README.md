@@ -1,5 +1,10 @@
 # Modified Gravity with Cross-Correlation
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![CAMB](https://img.shields.io/badge/CAMB-Latest-green.svg)](https://camb.info)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 Welcome to **Modified Gravity**. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
 
 ---
