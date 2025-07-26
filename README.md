@@ -97,6 +97,17 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 - [ ] Interpretations will be made in the context of selected MG models  
 
 ---
+### Key Components
+
+| Component | Description | Tools |
+|-----------|-------------|-------|
+| **Synthetic Observables** | Generate theoretical power spectra | CAMB, MGmu Emulator |
+| **Survey Modeling** | Realistic survey specifications | LSST/DESC, Simons Observatory |
+| **Fisher Analysis** | Parameter constraint forecasting | Custom Fisher matrix code |
+| **Emulator Integration** | Fast parameter space exploration | Neural network interpolation |
+
+---
+
 
 ## 📁 Repository Structure
 
