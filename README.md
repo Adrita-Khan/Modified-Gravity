@@ -115,6 +115,84 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 
 ---
 
+## Methodology for Cross-Correlation Forecasting of Modified Gravity Signatures
+
+To effectively forecast signatures of modified gravity using cross-correlation analyses between the Simons Observatory (SO) and the Legacy Survey of Space and Time (LSST) at the Vera C. Rubin Observatory, follow this structured approach:
+
+---
+
+### 1. **Theoretical Framework**
+
+**Modified Gravity Models:** Focus on theories such as:
+
+* **f(R) Gravity:** Modifications to General Relativity (GR) by altering the Ricci scalar $R$ in the Einstein-Hilbert action.
+* **Horndeski Theories:** General scalar-tensor theories with second-order field equations.
+* **Dvali-Gabadadze-Porrati (DGP) Gravity:** Models involving extra dimensions impacting gravitational interactions.
+
+**Key Parameters:**
+
+* **$f_R0$:** Amplitude of the modification in f(R) gravity.
+* **$\mu, \Sigma$:** Parameters in Horndeski theories influencing gravitational strength and lensing.
+* **$\gamma$:** Growth index parameter in DGP models.
+
+---
+
+### 2. **Data Acquisition**
+
+**Simons Observatory (SO):**
+
+* **CMB Lensing Maps:** Utilize high-resolution cosmic microwave background (CMB) lensing data to probe the large-scale structure.
+* **Thermal Sunyaev-Zel'dovich (tSZ) Effect:** Measure the tSZ effect to study galaxy clusters and their environments.
+
+**LSST at Rubin Observatory:**
+
+* **Galaxy Clustering:** Analyze large-scale galaxy distributions to understand matter density fluctuations.
+* **Weak Lensing:** Employ weak gravitational lensing to map dark matter and study cosmic shear.
+
+---
+
+### 3. **Cross-Correlation Techniques**
+
+**Power Spectra Analysis:**
+
+* **Galaxy–Galaxy (GG):** Examine the distribution of galaxies to infer matter density.
+* **Galaxy–CMB Lensing (GCMB):** Investigate the correlation between galaxy positions and CMB lensing to probe the growth of structure.
+* **CMB Lensing Auto-Power Spectrum:** Analyze the auto-correlation of CMB lensing to understand the large-scale structure.
+
+**Multi-Tracer Approach:**
+
+* Combine data from different tracers (e.g., galaxy density, CMB lensing) to enhance signal-to-noise ratios and mitigate systematic errors.
+
+---
+
+### 4. **Forecasting and Statistical Analysis**
+
+**Fisher Matrix Forecasting:**
+
+* **Parameter Constraints:** Use Fisher matrix analysis to forecast the precision with which cosmological and modified gravity parameters can be constrained.
+* **Degeneracy Breaking:** Employ cross-correlations to break degeneracies between cosmological parameters, enhancing the ability to distinguish between GR and modified gravity models.
+
+**Emulator-Based Acceleration:**
+
+* **MGmu Emulator:** Utilize neural-network-based emulators to rapidly compute theoretical power spectra across modified gravity parameter grids, facilitating efficient parameter space exploration.
+
+---
+
+### 5. **Implementation Tools**
+
+* **CAMB (Code for Anisotropies in the Microwave Background):** Generate theoretical power spectra for various cosmological models.
+* **HEALPix and healpy:** Handle spherical data and perform map-based analyses.
+* **JAX:** Optimize computational pipelines for efficient calculations.
+* **MGmu Emulator:** Accelerate the computation of modified gravity models.
+
+---
+
+### 6. **Interpretation and Visualization**
+
+* **Parameter Sensitivity:** Assess how different modified gravity parameters affect observables like power spectra.
+* **Survey Specifications:** Incorporate realistic survey characteristics (e.g., sky coverage, galaxy number density, redshift binning) to simulate measurements.
+* **Bias and Systematic Evaluation:** Evaluate potential biases and systematics in parameter estimation due to modified gravity effects.
+---
 
 ## 📁 Repository Structure
 
