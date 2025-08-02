@@ -135,4 +135,6 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
 
+---
+*This repository serves as a comprehensive resource for understanding, testing, and contributing to the Modified Gravity (MG) project, providing the necessary components, documentation, and resources to execute simulations, analyze data, and forecast the impact of modified gravity theories on cosmological observations. It includes theoretical models, observational data, and tools for computing cross-correlated power spectra, with a focus on testing modified gravity theories like f(R) gravity and Horndeski theories through advanced computational methods and survey simulations.*
 
