@@ -3,6 +3,9 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![CAMB](https://img.shields.io/badge/CAMB-Latest-green.svg)](https://camb.info)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/stargazers)
+
 
 
 Welcome to **Modified Gravity**. This repository contains all necessary components to understand, execute, and contribute to the project, alongside essential resources and outlined development goals.
