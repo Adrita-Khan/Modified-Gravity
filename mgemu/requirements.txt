@@ -1,0 +1,6 @@
+tensorflow==1.14.0
+numpy==1.16.6
+gpflow==1.5.1
+scikit-learn==0.21.3
+protobuf==3.20.3
+h5py==2.10.0
