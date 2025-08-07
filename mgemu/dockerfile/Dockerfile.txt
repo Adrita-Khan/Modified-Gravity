@@ -1,0 +1,38 @@
+# Use Python 3.7 base image
+FROM python:3.7
+
+# Set working directory
+WORKDIR /app
+
+# Copy current directory contents into the container
+COPY . /app
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y git && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Install specific Python packages with compatible versions
+RUN pip install --upgrade pip==20.3.4 && \
+    pip install \
+    tensorflow==1.14.0 \
+    numpy==1.16.6 \
+    gpflow==1.5.1 \
+    scikit-learn==0.21.3 \
+    protobuf==3.20.3 \
+    h5py==2.10.0
+
+# Clone and install mgemu package
+RUN git clone https://github.com/LSSTDESC/mgemu.git && \
+    cd mgemu && \
+    pip install .
+
+# 🔧 Fix deprecated .value in gpflow to remove H5pyDeprecationWarning
+RUN sed -i 's/\.value/\[()\]/g' /usr/local/lib/python3.7/site-packages/gpflow/saver/serializers.py
+
+# Suppress h5py default file mode warning
+ENV H5PY_DEFAULT_READONLY=1
+
+# Set environment to ensure Python can find installed packages
+ENV PYTHONPATH="/app:$PYTHONPATH"
