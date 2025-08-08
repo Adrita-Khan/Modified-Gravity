@@ -1,4 +1,4 @@
-### What is the \( f_{\text{sky}} \) value of LSST?
+### What is the $\( f_{\text{sky}} \)$ value of LSST?
 
 The LSST (Legacy Survey of Space and Time), conducted by the Vera C. Rubin Observatory, is designed to cover approximately **20,000 square degrees** in its Wide-Fast-Deep (WFD) survey.
 
