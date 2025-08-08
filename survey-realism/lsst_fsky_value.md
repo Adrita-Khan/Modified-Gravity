@@ -13,10 +13,6 @@ This means LSST observes about **48.5%** of the full sky.
 
 ---
 
-#### References:
-Here’s the properly formatted list with clear naming for each resource:
-
----
 
 ### References:
 
