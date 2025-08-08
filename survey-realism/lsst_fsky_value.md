@@ -14,6 +14,24 @@ This means LSST observes about **48.5%** of the full sky.
 ---
 
 #### References:
-- LSST Science Book: [https://www.lsst.org/sites/default/files/docs/sciencebook/SB_13.pdf](https://www.lsst.org/sites/default/files/docs/sciencebook/SB_13.pdf)
-- Survey footprint details: [https://survey-strategy.lsst.io/](https://survey-strategy.lsst.io/)
-- LSST DESC Rubin Observatory Page: [https://lsstdesc.org/pages/rubin.html](https://lsstdesc.org/pages/rubin.html)
+Here’s the properly formatted list with clear naming for each resource:
+
+---
+
+### References:
+
+* **Surveying the Sky with the Rubin Observatory**
+  [https://phas.ubc.ca/surveying-sky-rubin-observatory](https://phas.ubc.ca/surveying-sky-rubin-observatory)
+
+* **LSST Survey Strategy by Željko Ivezić (2019)**
+  [https://www.lsst.org/sites/default/files/docs/137.02\_Ivezic\_LSST\_Survey\_Strategy\_8x10.pdf](https://www.lsst.org/sites/default/files/docs/137.02_Ivezic_LSST_Survey_Strategy_8x10.pdf)
+
+* **LSST Science Book (Version 13)**
+  [https://www.lsst.org/sites/default/files/docs/sciencebook/SB\_13.pdf](https://www.lsst.org/sites/default/files/docs/sciencebook/SB_13.pdf)
+
+* **LSST Survey Footprint and Strategy Details**
+  [https://survey-strategy.lsst.io/](https://survey-strategy.lsst.io/)
+
+* **LSST Dark Energy Science Collaboration (DESC) Rubin Observatory Page**
+  [https://lsstdesc.org/pages/rubin.html](https://lsstdesc.org/pages/rubin.html)
+
