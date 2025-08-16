@@ -154,9 +154,8 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 **Power Spectra Analysis:**
 
-* **Galaxy–Galaxy (GG):** Examine the distribution of galaxies to infer matter density.
-* **Galaxy–CMB Lensing (GCMB):** Investigate the correlation between galaxy positions and CMB lensing to probe the growth of structure.
-* **CMB Lensing Auto-Power Spectrum:** Analyze the auto-correlation of CMB lensing to understand the large-scale structure.
+* **Galaxy–Galaxy (GG, $C_\ell^{gg}$) — auto-correlation:** Examine the distribution of galaxies to infer matter density.
+* **Galaxy–CMB Lensing (GCMB, $C_\ell^{\kappa g}$) — cross-correlation:** Investigate the correlation between galaxy positions and CMB lensing to probe the growth of structure.
 
 **Multi-Tracer Approach:**
 
