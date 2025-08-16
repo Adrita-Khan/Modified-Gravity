@@ -88,7 +88,7 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 - [ ] A review of the Power Spectrum and Two-Point Correlation Function (2PCF) under linear theory is to be conducted  
 - [ ] Familiarization with [HEALPix](https://healpix.sourceforge.io) and the `healpy` Python package for spherical map handling  
 - [ ] A review of key modified gravity theories (e.g., f(R), Horndeski, DGP) is planned  
-- [ ] The operation of [CAMB](https://camb.info) is to be studied and implemented  
+- [ ] The operation of [CosmoPower](https://alessiospuriomancini.github.io/cosmopower/) is to be studied and implemented.
 - [ ] The [MGmu Emulator](https://github.com/LSSTDESC/mgemu) will be explored for rapid computation of matter power spectra  
 
 ### Project Sketch
