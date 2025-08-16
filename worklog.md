@@ -23,7 +23,7 @@
 
 
 
-| Notebook | \(f_{\rm sky}\) in variance/denominator | Prior on \(\boldsymbol{\theta}\) | \(b_0\) (linear bias) sampled? | \(\Omega_b\) (baryon density) sampled? |
+| Notebook | $\(f_{\rm sky}\)$ in variance/denominator | Prior on \(\boldsymbol{\theta}\) | \(b_0\) (linear bias) sampled? | \(\Omega_b\) (baryon density) sampled? |
 |---|---|---|---|---|
 | `cosmo_mcmc_test_v5.ipynb` | ❌ No | Uniform (\(p(\boldsymbol{\theta})=\mathrm{const}\)) | ❌ No | ✅ Yes |
 | `cosmo_mcmc_test_v6.ipynb` | ✅ Yes | Uniform (\(p(\boldsymbol{\theta})=\mathrm{const}\)) | ❌ No | ✅ Yes |
