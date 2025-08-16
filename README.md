@@ -210,7 +210,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 ## 📚 Resources
 
-- [CosmoPower Documentation](https://cosmopower.readthedocs.io)
+- [CosmoPower Documentation](https://alessiospuriomancini.github.io/cosmopower/)
 - [MGmu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
