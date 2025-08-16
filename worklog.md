@@ -4,8 +4,8 @@
 
   * Does not include \$f\_{\rm sky}\$ in the denominator
   * Uses uniform prior
-  * Does not sample *\$b\_{0}\$*
-  * Samples *\$\Omega\_b\$* (baryon density)
+  * Does not sample \$b\_{0}\$
+  * Samples \$\Omega\_b\$ (baryon density)
 
 * **cosmo\_mcmc\_test\_v6.ipynb**
 
