@@ -53,13 +53,12 @@ These combined observables are particularly sensitive to the growth of structure
 
 ## Project Description
 
-The aim of this project is to test modified gravity theories by computing and analyzing cross-correlated power spectra:
+The aim of this project is to test modified gravity theories by computing and analyzing power spectra:
 
-- Galaxy–Galaxy power spectrum  
-- Galaxy–CMB lensing cross-power spectrum  
-- CMB Lensing–CMB Lensing auto-power spectrum  
+* **Galaxy–Galaxy power spectrum** ($C_\ell^{gg}$) — *auto-correlation*
+* **Galaxy–CMB lensing cross-power spectrum** ($C_\ell^{\kappa g}$) — *cross-correlation*
 
-Both theoretical modeling (e.g., using CAMB and emulators) and observational specifications from LSST/DESC and the Simons Observatory are utilized.
+Both theoretical modeling (e.g., using CosmoPower and MGemu emulator) and observational specifications from LSST/DESC and the Simons Observatory are utilized.
 
 ---
 
