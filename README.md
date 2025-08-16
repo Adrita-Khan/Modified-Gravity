@@ -178,7 +178,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 ### 5. **Implementation Tools**
 
-* **CAMB (Code for Anisotropies in the Microwave Background):** Generate theoretical power spectra for various cosmological models.
+* **CosmoPower:** Generate theoretical power spectra for various cosmological models.
 * **HEALPix and healpy:** Handle spherical data and perform map-based analyses.
 * **JAX:** Optimize computational pipelines for efficient calculations.
 * **MGmu Emulator:** Accelerate the computation of modified gravity models.
@@ -210,7 +210,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 ## 📚 Resources
 
-- [CAMB Documentation](https://camb.readthedocs.io)
+- [CosmoPower Documentation](https://cosmopower.readthedocs.io)
 - [MGmu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
