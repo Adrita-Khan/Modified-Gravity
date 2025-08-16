@@ -42,10 +42,10 @@ Cross-correlation techniques are employed to enhance the testing of gravity mode
 
 - **Degeneracies** between cosmological parameters (e.g., galaxy bias vs. growth rate) can be broken.
 - **Systematic errors** are mitigated, as uncorrelated noise and systematics tend to cancel out across different datasets.
-- **Signal strength** is amplified by the joint analysis of multiple tracers of the gravitational potential:
-  - **Galaxy–Galaxy Clustering**
-  - **Galaxy–CMB Lensing Cross-Correlation**
-  - **CMB Lensing Auto-Power Spectrum**
+* **Signal strength** is amplified by the joint analysis of multiple tracers of the gravitational potential:
+
+  * **Galaxy–Galaxy Clustering** ($C_\ell^{gg}$)
+  * **Galaxy–CMB Lensing Cross-Correlation** ($C_\ell^{\kappa g}$)
 
 These combined observables are particularly sensitive to the growth of structure and the effects of gravitational lensing, rendering them effective tools for probing modified gravity.
 
