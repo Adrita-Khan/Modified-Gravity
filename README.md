@@ -217,3 +217,11 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 ---
 *This repository serves as a comprehensive resource for understanding, testing, and contributing to the Modified Gravity (MG) project, providing the necessary components, documentation, and resources to execute simulations, analyze data, and forecast the impact of modified gravity theories on cosmological observations. It includes theoretical models, observational data, and tools for computing cross-correlated power spectra, with a focus on testing modified gravity theories like f(R) gravity and Horndeski theories through advanced computational methods and survey simulations.*
 
+---
+## Contact
+
+**For any inquiries or feedback, please contact:**
+
+**Adrita Khan**  
+[Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
+
