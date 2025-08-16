@@ -1,49 +1,47 @@
 
-- **cosmo_mcmc_test_v5.ipynb**  
-  - Does not include *fsky* in the denominator  
-  - Uses uniform prior  
-  - Does not sample *bnot*  
-  - Samples *omegab* (baryon density)  
 
-- **cosmo_mcmc_test_v6.ipynb**  
-  - Includes *fsky* in the denominator  
-  - Uses uniform prior  
-  - Does not sample *bnot*  
-  - Samples *omegab* (baryon density)  
+* **cosmo\_mcmc\_test\_v5.ipynb**
 
+  * Does not include *\$f\_{\rm sky}\$* in the denominator
+  * Uses uniform prior
+  * Does not sample *\$b\_{0}\$*
+  * Samples *\$\Omega\_b\$* (baryon density)
 
+* **cosmo\_mcmc\_test\_v6.ipynb**
 
-
-
-
-| Notebook                | fsky in denominator | Prior   | bnot sampled | omegab sampled |
-|--------------------------|---------------------|---------|--------------|----------------|
-| cosmo_mcmc_test_v5.ipynb | ❌ No               | Uniform | ❌ No        | ✅ Yes         |
-| cosmo_mcmc_test_v6.ipynb | ✅ Yes              | Uniform | ❌ No        | ✅ Yes         |
+  * Includes *\$f\_{\rm sky}\$* in the denominator
+  * Uses uniform prior
+  * Does not sample *\$b\_{0}\$*
+  * Samples *\$\Omega\_b\$* (baryon density)
 
 
 
-| Notebook | $\(f_{\rm sky}\)$ in variance/denominator | Prior on $\(\boldsymbol{\theta}\)$ | $\(b_0\)$ (linear bias) sampled? | \(\Omega_b\) (baryon density) sampled? |
-|---|---|---|---|---|
-| `cosmo_mcmc_test_v5.ipynb` | ❌ No | Uniform (\(p(\boldsymbol{\theta})=\mathrm{const}\)) | ❌ No | ✅ Yes |
-| `cosmo_mcmc_test_v6.ipynb` | ✅ Yes | Uniform (\(p(\boldsymbol{\theta})=\mathrm{const}\)) | ❌ No | ✅ Yes |
+| Notebook                   | \$f\_{\rm sky}\$ in variance/denominator | Prior on \$\boldsymbol{\theta}\$                            | \$b\_{0}\$ (linear bias) sampled? | \$\Omega\_b\$ (baryon density) sampled? |
+| -------------------------- | ---------------------------------------- | ----------------------------------------------------------- | --------------------------------- | --------------------------------------- |
+| `cosmo_mcmc_test_v5.ipynb` | ❌ No                                     | Uniform \$\big(p(\boldsymbol{\theta})=\mathrm{const}\big)\$ | ❌ No                              | ✅ Yes                                   |
+| `cosmo_mcmc_test_v6.ipynb` | ✅ Yes                                    | Uniform \$\big(p(\boldsymbol{\theta})=\mathrm{const}\big)\$ | ❌ No                              | ✅ Yes                                   |
 
-### Why the $\(f_{\rm sky}\)$ switch matters
-For power-spectrum–based likelihoods, the (Gaussian) variance of \(\hat C_\ell\) scales like  
-\[
-\mathrm{Var}(\hat C_\ell)\;\simeq\;\frac{2}{(2\ell+1)\,f_{\rm sky}}\left(C_\ell+N_\ell\right)^2.
-\]
-- Including \(f_{\rm sky}\) (as in **v6**) correctly inflates the covariance for partial-sky analyses.  
-- Omitting it (as in **v5**) is equivalent to assuming \(f_{\rm sky}=1\), which underestimates parameter errors when \(f_{\rm sky}<1\).
+### Why the \$f\_{\rm sky}\$ switch matters
+
+For power-spectrum–based likelihoods, the (Gaussian) variance of \$\hat C\_\ell\$ scales like
+
+$$
+\mathrm{Var}\!\left(\hat C_\ell\right)\;\simeq\;\frac{2}{(2\ell+1)\,f_{\rm sky}}\left(C_\ell+N_\ell\right)^{2}.
+$$
+
+* Including \$f\_{\rm sky}\$ (as in **v6**) inflates the covariance appropriately for partial-sky analyses.
+* Omitting it (as in **v5**) is equivalent to assuming \$f\_{\rm sky}=1\$, which underestimates errors when \$f\_{\rm sky}<1\$.
 
 ### Parameters and priors
-- **\(\Omega_b\)** (baryon density) is sampled in both notebooks.  
-- **\(b_0\)** (linear galaxy bias) is **not** sampled in either case. Recall:  
-  \[
-  P_{gg}(k) = b_0^2 \, P_{mm}(k)
-  \]
-  so fixing \(b_0\) can artificially tighten posteriors but risks bias if the chosen value is off.
+
+* \$\Omega\_b\$ (baryon density) is sampled in both notebooks.
+* \$b\_{0}\$ (linear galaxy bias) is **not** sampled in either case. Recall:
+
+$$
+P_{gg}(k) = b_{0}^{2}\,P_{mm}(k).
+$$
 
 ### Practical takeaway
-- Use **v6** for partial-sky analyses: it includes the \(1/f_{\rm sky}\) factor and yields realistic uncertainties.  
-- Be mindful that fixing \(b_0\) can propagate into cosmological parameters like \(\Omega_b\) due to degeneracies in \(P(k)\) or \(C_\ell\).
+
+* Use **v6** for partial-sky analyses (has the \$1/f\_{\rm sky}\$ factor).
+* Fixing \$b\_{0}\$ can tighten posteriors but may bias cosmological parameters (e.g., \$\Omega\_b\$) through degeneracies.
