@@ -11,7 +11,8 @@ Welcome to **Modified Gravity**. This repository contains all necessary componen
 
 ---
 
-This project primarily focuses on forecasting signatures of modified gravity through cross-correlation analyses between the Simons Observatory and the Legacy Survey of Space and Time (LSST) at the Vera C. Rubin Observatory. It is a project of [Dunlap Institute](https://www.dunlap.utoronto.ca/) in collaboration with [CASSA](https://cassa.site/) and [CCDS](https://ccds.ai/).
+This project focuses on forecasting the signatures of modified gravity by performing cross-correlation analyses between data from the **Simons Observatory** and the **Legacy Survey of Space and Time (LSST)** at the **Vera C. Rubin Observatory**.
+It is a project of [Dunlap Institute](https://www.dunlap.utoronto.ca/) in collaboration with [CASSA](https://cassa.site/) and [CCDS](https://ccds.ai/).
 
 
 ---
