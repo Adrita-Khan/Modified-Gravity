@@ -218,6 +218,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 - [Astropy: FlatLambdaCDM](https://docs.astropy.org/en/latest/api/astropy.cosmology.FlatLambdaCDM.html)
 - [BACCO Emulator Documentation](https://baccoemu.readthedocs.io/en/latest/)
 - [SciPy](https://scipy.org/)
+- [Astropy Cosmology Documentation](https://docs.astropy.org/en/stable/cosmology/index.html)
 
 
 ---
