@@ -211,59 +211,43 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 ## 📚 Resources
 
-### Emulators & Codes
 - [CosmoPower Documentation](https://alessiospuriomancini.github.io/cosmopower/)
 - [MGmu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
-- [BACCO Emulator Documentation](https://baccoemu.readthedocs.io/en/latest/)
-- [CosmicPy Tutorials](https://cosmicpy.github.io/tutorials/gettingStarted.html)
-- [Cobaya Theories & Likelihoods](https://cobaya.readthedocs.io/en/latest/cosmo_theories_likes.html)
-- [CAMB Results](https://camb.readthedocs.io/en/latest/results.html)
-- [CAMB Sources](https://camb.info/sources/)
-- [CAMB Notes PDF](https://cosmologist.info/notes/CAMB.pdf)
-- [Boltzmann Notes PDF](https://cosmologist.info/notes/Boltzmann_Nov21.pdf)
-
----
-
-### Collaborations & Projects
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
-- [CosmoStat Group](https://www.cosmostat.org/wp-content/uploads/2023/09/Internship_report_Jingwei_Wang.pdf)
-- [CMB: Winter’s Coming](https://cmb.wintherscoming.no/milestone4.php)
-
----
-
-### Documentation & Libraries
 - [Astropy: FlatLambdaCDM](https://docs.astropy.org/en/latest/api/astropy.cosmology.FlatLambdaCDM.html)
 - [Astropy Cosmology Documentation](https://docs.astropy.org/en/stable/cosmology/index.html)
+- [BACCO Emulator Documentation](https://baccoemu.readthedocs.io/en/latest/)
 - [SciPy](https://scipy.org/)
-- [CCL: Notation & Conventions](https://ccl.readthedocs.io/en/latest/source/notation_and_other_cosmological_conventions.html)
-- [CCL: Cosmology API](https://ccl.readthedocs.io/en/latest/api/pyccl.cosmology.html)
 - [SHTOOLS Python Examples](https://shtools.github.io/SHTOOLS/python-examples.html)
-- [MNE Spectrum Tutorial](https://mne.tools/stable/auto_tutorials/time-freq/10_spectrum_class.html)
+- [MNE Spectrum Analysis Tutorial](https://mne.tools/stable/auto_tutorials/time-freq/10_spectrum_class.html)
+- [PhysRevD 110.123501 (APS)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123501)
+- [Cobaya Theories & Likelihoods](https://cobaya.readthedocs.io/en/latest/cosmo_theories_likes.html)
+- [Mide Technology (YouTube)](https://www.youtube.com/watch?v=YuaB5BdyzXg&ab_channel=MideTechnology)
+- [Case Studies in Python (Mark Kramer)](https://mark-kramer.github.io/Case-Studies-Python/03.html)
+- [arXiv:2410.24134 (PDF)](https://arxiv.org/pdf/2410.24134)
+- [CCL: Cosmological Conventions](https://ccl.readthedocs.io/en/latest/source/notation_and_other_cosmological_conventions.html)
+- [CCL: Cosmology API](https://ccl.readthedocs.io/en/latest/api/pyccl.cosmology.html)
+- [Boltzmann Notes (PDF)](https://cosmologist.info/notes/Boltzmann_Nov21.pdf)
+- [CAMB Results](https://camb.readthedocs.io/en/latest/results.html)
+- [CAMB Notes (PDF)](https://cosmologist.info/notes/CAMB.pdf)
+- [A&A 2010 Paper](https://www.aanda.org/articles/aa/full_html/2010/15/aa13524-09/aa13524-09.html)
 - [HEALPix Conventions](https://healpix.sourceforge.io/html/intro_HEALPix_conventions.htm)
-
----
-
-### Research Papers & Reviews
-- [PhysRevD 110.123501](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.123501)
-- [PhysRevD 108.043537](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.043537)
-- [A&A 2010: aa13524-09](https://www.aanda.org/articles/aa/full_html/2010/15/aa13524-09/aa13524-09.html)
-- [A&A 2023: aa46888-23](https://www.aanda.org/articles/aa/full_html/2023/11/aa46888-23/aa46888-23.html)
-- [MNRAS 485:326](https://academic.oup.com/mnras/article/485/1/326/5298896?login=false)
-- [arXiv: 2410.24134](https://arxiv.org/pdf/2410.24134)
-- [arXiv: 1907.13109](https://arxiv.org/pdf/1907.13109)
-- [arXiv: 1305.3348](https://arxiv.org/pdf/1305.3348)
-- [arXiv: 1307.1459](https://arxiv.org/pdf/1307.1459)
-- [arXiv: 1701.03592](https://arxiv.org/pdf/1701.03592)
-- [arXiv: 2101.00298](https://arxiv.org/pdf/2101.00298)
-- [arXiv: 2306.00808](https://arxiv.org/pdf/2306.00808)
-- [arXiv: 2506.16434v2](https://arxiv.org/html/2506.16434v2)
-
----
-
-### Tutorials 
-- [YouTube: Fourier Analysis & Spectrum](https://www.youtube.com/watch?v=YuaB5BdyzXg&ab_channel=MideTechnology)
-- [Case Studies in Python: Example 03](https://mark-kramer.github.io/Case-Studies-Python/03.html)
+- [CAMB Sources](https://camb.info/sources/)
+- [Cosmostat Internship Report (2023)](https://www.cosmostat.org/wp-content/uploads/2023/09/Internship_report_Jingwei_Wang.pdf)
+- [arXiv:1907.13109 (PDF)](https://arxiv.org/pdf/1907.13109)
+- [A&A 2023 Paper](https://www.aanda.org/articles/aa/full_html/2023/11/aa46888-23/aa46888-23.html)
+- [arXiv:1305.3348 (PDF)](https://arxiv.org/pdf/1305.3348)
+- [arXiv:2506.16434v2 (HTML)](https://arxiv.org/html/2506.16434v2)
+- [PhysRevD 108.043537 (APS)](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.043537)
+- [MNRAS 485, 326 (2019)](https://academic.oup.com/mnras/article/485/1/326/5298896?login=false)
+- [CMB Project Milestone 4](https://cmb.wintherscoming.no/milestone4.php)
+- [arXiv:2306.00808 (PDF)](https://arxiv.org/pdf/2306.00808)
+- [CosmicPy Tutorials](https://cosmicpy.github.io/tutorials/gettingStarted.html)
+- [arXiv:1701.03592 (PDF)](https://arxiv.org/pdf/1701.03592)
+- [Cobaya Theories & Likelihoods](https://cobaya.readthedocs.io/en/latest/cosmo_theories_likes.html) _(duplicate, kept for reference)_
+- [arXiv:2101.00298 (PDF)](https://arxiv.org/pdf/2101.00298)
+- [arXiv:1307.1459 (PDF)](https://arxiv.org/pdf/1307.1459)
 
 
 
