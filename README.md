@@ -245,7 +245,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 - [arXiv:2306.00808 (PDF)](https://arxiv.org/pdf/2306.00808)
 - [CosmicPy Tutorials](https://cosmicpy.github.io/tutorials/gettingStarted.html)
 - [arXiv:1701.03592 (PDF)](https://arxiv.org/pdf/1701.03592)
-- [Cobaya Cosmology Theories & Likelihoods (duplicate link)](https://cobaya.readthedocs.io/en/latest/cosmo_theories_likes.html)
+- [Cobaya Cosmology Theories & Likelihoods](https://cobaya.readthedocs.io/en/latest/cosmo_theories_likes.html)
 
 
 
