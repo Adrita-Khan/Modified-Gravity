@@ -5,7 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/issues)
 [![GitHub stars](https://img.shields.io/github/stars/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/stargazers)
 
-
+*Note: This project is ongoing and subject to continuous advancements and modifications.*
 
 This repository provides all the necessary resources to **understand, run, and contribute** to the project, including core components, documentation, and development goals.
 
