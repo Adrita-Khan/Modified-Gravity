@@ -68,7 +68,7 @@ A key objective of this project is to **forecast the constraining power of upcom
 
 The forecasting pipeline includes the following components:
 
-* **Synthetic Observables**: Theoretical power spectra — including Galaxy–Galaxy, Galaxy–CMB Lensing, and CMB Lensing auto-correlations — are generated under various MG models using tools such as **CAMB**, **MGmu Emulator**, and **parameterized post-Friedmann (PPF)** formalisms.
+* **Synthetic Observables**: Theoretical power spectra — including Galaxy–Galaxy, Galaxy–CMB Lensing, and CMB Lensing auto-correlations — are generated under various MG models using tools such as **CAMB**, **MGemu Emulator**, and **parameterized post-Friedmann (PPF)** formalisms.
 
 * **Survey Modeling**: Realistic survey characteristics (e.g., sky coverage, galaxy number density, redshift binning, shape noise) from projects such as **LSST/DESC** and the **Simons Observatory** are incorporated through configuration files. These specifications influence the expected noise levels and window functions in the simulated measurements.
 
@@ -76,7 +76,7 @@ The forecasting pipeline includes the following components:
 
 * **Bias and Degeneracy Evaluation**: By exploring the parameter space of modified gravity (e.g., $f_{R0}$ in f(R), $\alpha_M, \alpha_K, \alpha_B$ in Horndeski), the project can assess degeneracies with standard ΛCDM parameters and evaluate potential biases in inference if MG effects are neglected.
 
-* **Emulator-Based Acceleration**: For faster exploration of the parameter space, the project supports neural-network-based interpolation using the **MGmu Emulator**, allowing rapid generation of spectra across MG parameter grids.
+* **Emulator-Based Acceleration**: For faster exploration of the parameter space, the project supports neural-network-based interpolation using the **MGemu Emulator**, allowing rapid generation of spectra across MG parameter grids.
 
 By combining these elements, the pipeline serves as a **forecasting tool for MG detectability**: it determines whether a given MG model would leave statistically significant imprints in the cross-correlation observables of next-generation surveys.
 
@@ -87,7 +87,7 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 - [ ] Familiarization with [HEALPix](https://healpix.sourceforge.io) and the `healpy` Python package for spherical map handling  
 - [ ] A review of key modified gravity theories (e.g., f(R), Horndeski, DGP) is planned  
 - [ ] The operation of [CosmoPower](https://alessiospuriomancini.github.io/cosmopower/) is to be studied and implemented.
-- [ ] The [MGmu Emulator](https://github.com/LSSTDESC/mgemu) will be explored for rapid computation of matter power spectra  
+- [ ] The [MGemu Emulator](https://github.com/LSSTDESC/mgemu) will be explored for rapid computation of matter power spectra  
 
 ### Project Sketch
 
@@ -105,7 +105,7 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 
 | Component | Description | Tools |
 |-----------|-------------|-------|
-| **Synthetic Observables** | Generate theoretical power spectra | CosmoPower, MGmu Emulator |
+| **Synthetic Observables** | Generate theoretical power spectra | CosmoPower, MGemu Emulator |
 | **Survey Modeling** | Realistic survey specifications | LSST/DESC, Simons Observatory |
 | **Fisher Analysis** | Parameter constraint forecasting | Custom Fisher matrix code |
 | **Emulator Integration** | Fast parameter space exploration | Neural network interpolation |
@@ -170,7 +170,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 **Emulator-Based Acceleration:**
 
-* **MGmu Emulator:** Utilize neural-network-based emulators to rapidly compute theoretical power spectra across modified gravity parameter grids, facilitating efficient parameter space exploration.
+* **MGemu Emulator:** Utilize neural-network-based emulators to rapidly compute theoretical power spectra across modified gravity parameter grids, facilitating efficient parameter space exploration.
 
 ---
 
@@ -179,7 +179,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 * **CosmoPower:** Generate theoretical power spectra for various cosmological models.
 * **HEALPix and healpy:** Handle spherical data and perform map-based analyses.
 * **JAX:** Optimize computational pipelines for efficient calculations.
-* **MGmu Emulator:** Accelerate the computation of modified gravity models.
+* **MGemu Emulator:** Accelerate the computation of modified gravity models.
 
 ---
 
@@ -209,7 +209,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 ## 📚 Resources
 
 - [CosmoPower Documentation](https://alessiospuriomancini.github.io/cosmopower/)
-- [MGmu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
+- [MGemu Emulator GitHub](https://github.com/LSSTDESC/mgemu)
 - [LSST DESC](https://www.lsst.org/scientists/dark-energy-science-collaboration)
 - [Simons Observatory](https://simonsobservatory.org)
 - [Astropy: FlatLambdaCDM](https://docs.astropy.org/en/latest/api/astropy.cosmology.FlatLambdaCDM.html)
