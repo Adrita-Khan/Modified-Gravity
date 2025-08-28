@@ -7,8 +7,6 @@
 
 
 
-# Welcome to **Modified Gravity**
-
 This repository provides all the necessary resources to **understand, run, and contribute** to the project, including core components, documentation, and development goals.
 
 The project aims to **forecast the signatures of modified gravity** through cross-correlation analyses of data from the **Simons Observatory** and the **Legacy Survey of Space and Time (LSST)** at the **Vera C. Rubin Observatory**.
