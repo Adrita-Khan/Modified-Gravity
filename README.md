@@ -247,6 +247,20 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 - [arXiv:2101.00298](https://arxiv.org/pdf/2101.00298)
 - [arXiv:1307.1459](https://arxiv.org/pdf/1307.1459)
 - [AngPow GitLab (v2)](https://gitlab-preprod.in2p3.fr/campagne/AngPow/-/tree/v2)
+- [nDGPemu GitHub](https://github.com/BartolomeoF/nDGPemu)
+- [Modified gravity theory](https://arxiv.org/pdf/2407.15934v1)
+- [arXiv:2406.03374v1](https://arxiv.org/pdf/2406.03374v1)
+- [arXiv:2406.03374](https://arxiv.org/pdf/2406.03374)
+- [arXiv:1703.00879](https://arxiv.org/pdf/1703.00879)
+- [Two-point Mathematics](https://cosmosis.readthedocs.io/en/latest/usage/standard_library_overview.html)
+- [BACCO Emulator](https://bacco.dipc.org/emulator.html)
+- [OSTI - Bibliography](https://www.osti.gov/biblio/22676074)
+- [Fiorini et al. 2023 J. Cosmol. Astropart. Phys.](https://pure.port.ac.uk/ws/portalfiles/portal/83304617/Fiorini_2023_J._Cosmol._Astropart._Phys._2023_045.pdf)
+- [arXiv:2406.03374](https://arxiv.org/pdf/2406.03374)
+- [arXiv:1009.0866](https://arxiv.org/pdf/1009.0866)
+- [arXiv:1409.7789](https://arxiv.org/pdf/1409.7789)
+- [modified_gravity_emulation GitHub](https://github.com/Yash-10/modified_gravity_emulation)
+
 
 
 
