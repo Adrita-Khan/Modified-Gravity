@@ -229,4 +229,3 @@ $$C_\ell = \int d\ln k\,P(k,z)W_\ell(k)$$
 
 **Band power estimation:**
 $$C_b = \frac{1}{\Delta\ell}\sum_{\ell\in b}C_\ell$$
-
