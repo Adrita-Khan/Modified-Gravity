@@ -68,7 +68,7 @@ A key objective of this project is to **forecast the constraining power of upcom
 
 The forecasting pipeline includes the following components:
 
-* **Synthetic Observables**: Theoretical power spectra — including Galaxy–Galaxy, Galaxy–CMB Lensing, and CMB Lensing auto-correlations — are generated under various MG models using tools such as **CAMB**, **MGemu Emulator**, and **parameterized post-Friedmann (PPF)** formalisms.
+* **Synthetic Observables**: Theoretical power spectra — including Galaxy–Galaxy and Galaxy–CMB Lensing — are generated under various MG models using tools such as **CAMB**, **MGemu Emulator**, and **parameterized post-Friedmann (PPF)** formalisms.
 
 * **Survey Modeling**: Realistic survey characteristics (e.g., sky coverage, galaxy number density, redshift binning, shape noise) from projects such as **LSST/DESC** and the **Simons Observatory** are incorporated through configuration files. These specifications influence the expected noise levels and window functions in the simulated measurements.
 
@@ -93,9 +93,8 @@ By combining these elements, the pipeline serves as a **forecasting tool for MG 
 
 - [ ] Custom functions will be written to calculate:
   - Galaxy–Galaxy power spectrum  
-  - Galaxy–CMB lensing cross-power spectrum  
-  - CMB Lensing–CMB Lensing auto-power spectrum  
-- [ ] The computational pipeline may be optimized using [JAX](https://github.com/google/jax) or neural network-based interpolation  
+  - Galaxy–CMB lensing cross-power spectrum
+    
 - [ ] Realistic survey specifications (e.g., number density and redshift distributions from LSST/DESC and Simons Observatory) will be integrated  
 - [ ] Theoretical and observational power spectra will be estimated and visualized  
 - [ ] Interpretations will be made in the context of selected MG models  
