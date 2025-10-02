@@ -28,9 +28,9 @@ The project aims to test and constrain the following leading classes of modified
 
 * **f(R) Gravity**: A class of scalar-tensor theories where the Ricci scalar $R$ in the Einstein-Hilbert action is replaced by a function $f(R)$. It predicts scale-dependent growth rates and modified lensing potentials.
 
-* **Horndeski Theories**: The most general scalar-tensor theories with second-order field equations. They encompass many MG models and introduce modifications via kinetic and derivative couplings of a scalar field.
-* and more!
+* **DGP Gravity**: A braneworld scenario in which our 4D universe is embedded in a higher-dimensional bulk. Gravity leaks into the extra dimension at large scales, leading to late-time cosmic acceleration without a cosmological constant. It predicts a scale-dependent weakening of gravity and distinctive modifications to the growth of structure.
 
+* and more!
 
 ---
 
