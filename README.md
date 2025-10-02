@@ -178,8 +178,7 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ## Contact
 
-**For inquiries or feedback:**
-
-**Adrita Khan**
+**Adrita Khan**  
 [Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
+
 
