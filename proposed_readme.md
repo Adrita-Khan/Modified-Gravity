@@ -1,5 +1,3 @@
-Here is the version without emojis:
-
 # Modified Gravity Cross-Correlation Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
