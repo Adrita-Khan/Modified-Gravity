@@ -7,7 +7,8 @@
 
 *Note: This project is ongoing and subject to continuous advancements and modifications.*
 
-The project aims to **forecast signatures of modified gravity theories** using cross-correlation analyses. It is a collaborative effort of the [Dunlap Institute](https://www.dunlap.utoronto.ca/), [CASSA](https://cassa.site/), and [CCDS](https://ccds.ai/).
+The project aims to **forecast the signatures of modified gravity theories** through cross-correlation analyses. It is a project of [Dunlap Institute](https://www.dunlap.utoronto.ca/) in collaboration with [CASSA](https://cassa.site/) and [CCDS](https://ccds.ai/).
+
 
 ---
 
