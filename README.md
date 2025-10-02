@@ -62,7 +62,7 @@ Both theoretical modeling (e.g., using CosmoPower and MGemu emulator) and observ
 
 ## Goals
 
-### 🔮 Forecasting Capability
+### Forecasting Capability
 
 A key objective of this project is to **forecast the constraining power of upcoming cosmological surveys** on modified gravity (MG) theories. By simulating mock observations and comparing theoretical predictions against survey specifications, the framework enables prospective evaluation of how well future data can discriminate between General Relativity and alternative gravity models.
 
@@ -123,13 +123,11 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 **Modified Gravity Models:** Focus on theories such as:
 
 * **f(R) Gravity:** Modifications to General Relativity (GR) by altering the Ricci scalar $R$ in the Einstein-Hilbert action.
-* **Horndeski Theories:** General scalar-tensor theories with second-order field equations.
 * **Dvali-Gabadadze-Porrati (DGP) Gravity:** Models involving extra dimensions impacting gravitational interactions.
 
 **Key Parameters:**
 
 * **$f_R0$:** Amplitude of the modification in f(R) gravity.
-* **$\mu, \Sigma$:** Parameters in Horndeski theories influencing gravitational strength and lensing.
 * **$\gamma$:** Growth index parameter in DGP models.
 
 ---
@@ -212,7 +210,7 @@ To effectively forecast signatures of modified gravity using cross-correlation a
 
 
 ---
-*This repository serves as a comprehensive resource for understanding, testing, and contributing to the Modified Gravity (MG) project, providing the necessary components, documentation, and resources to execute simulations, analyze data, and forecast the impact of modified gravity theories on cosmological observations. It includes theoretical models, observational data, and tools for computing cross-correlated power spectra, with a focus on testing modified gravity theories like f(R) gravity and Horndeski theories through advanced computational methods and survey simulations.*
+*This repository serves as a comprehensive resource for understanding, testing, and contributing to the Modified Gravity (MG) project, providing the necessary components, documentation, and resources to execute simulations, analyze data, and forecast the impact of modified gravity theories on cosmological observations. It includes theoretical models, observational data, and tools for computing cross-correlated power spectra, with a focus on testing modified gravity theories like f(R) gravity and DGP theories through advanced computational methods and survey simulations.*
 
 ---
 ## Contact
