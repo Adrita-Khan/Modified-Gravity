@@ -29,7 +29,29 @@ The project will test the following modified gravity theories:
 
 ## Why Cross-Correlation?
 
-Cross-correlation techniques break degeneracies between cosmological parameters and reduce systematic errors by combining uncorrelated datasets. This method also amplifies signal strength, particularly for:
+Cross-correlation techniques break degeneracies between cosmological parameters and reduce systematic errors by combining uncorrelated datasets. 
+
+```mermaid
+graph TD
+    A[Single Probe] --> B[Parameter Degeneracies]
+    A --> C[Systematic Uncertainties]
+    
+    D[Cross-Correlation] --> E[Break Degeneracies]
+    D --> F[Reduce Systematics]
+    D --> G[Amplify Signal]
+    
+    E --> H[Improved Constraints]
+    F --> H
+    G --> H
+```
+
+**Advantages:**
+
+* **Break degeneracies** between cosmological parameters
+* **Mitigate systematics** through uncorrelated noise cancellation
+* **Amplify signals** via joint analysis of multiple tracers
+
+This method also amplifies signal strength, particularly for:
 
 * **Galaxy–Galaxy Clustering** ($C_\ell^{gg}$)
 * **Galaxy–CMB Lensing Cross-Correlation** ($C_\ell^{\kappa g}$)
