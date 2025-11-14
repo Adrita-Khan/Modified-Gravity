@@ -216,10 +216,13 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ### Statistical & Sampling Tools
 
-- **Emcee**: [emcee.readthedocs.io](https://emcee.readthedocs.io/en/stable/)
-- **PoCoMC**: [pocomc.readthedocs.io](https://pocomc.readthedocs.io/en/latest/)
-- **Corner**: [corner.readthedocs.io](https://corner.readthedocs.io/en/latest/)
-- **GetDist**: [getdist.readthedocs.io](https://getdist.readthedocs.io/en/latest/)
+| Tool        | Documentation |
+|-------------|---------------|
+| **emcee**   | [emcee.readthedocs.io](https://emcee.readthedocs.io/en/stable/) |
+| **pocoMC**  | [pocomc.readthedocs.io](https://pocomc.readthedocs.io/en/latest/) |
+| **Corner**  | [corner.readthedocs.io](https://corner.readthedocs.io/en/latest/) |
+| **GetDist** | [getdist.readthedocs.io](https://getdist.readthedocs.io/en/latest/) |
+
 
 ---
 
