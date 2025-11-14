@@ -228,20 +228,18 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ### Astropy Cosmology
 
-#### General Documentation
-- [Astropy Cosmology Overview](https://docs.astropy.org/en/stable/cosmology/index.html)
-- [Cosmology Base API](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html)
-- [Cosmology Units](https://docs.astropy.org/en/latest/cosmology/units.html)
+| Category                | Resource                           | Link |
+|-------------------------|------------------------------------|------|
+| **General Documentation**| [Astropy Cosmology Overview](https://docs.astropy.org/en/stable/cosmology/index.html) | [Link](https://docs.astropy.org/en/stable/cosmology/index.html) |
+|                         | [Cosmology Base API](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) | [Link](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
+|                         | [Cosmology Units](https://docs.astropy.org/en/latest/cosmology/units.html) | [Link](https://docs.astropy.org/en/latest/cosmology/units.html) |
+| **Cosmology Models**     | [LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) |
+|                         | [FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) |
+|                         | [FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) |
+|                         | [FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
+| **Realizations & Utilities** | [Planck18 Realization](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) | [Link](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
+|                         | [Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
-#### Cosmology Models
-- [LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html)
-- [FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html)
-- [FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html)
-- [FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html)
-
-#### Realizations & Utilities
-- [Planck18 Realization](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html)
-- [Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html)
 
 ---
 
