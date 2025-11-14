@@ -202,23 +202,14 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ## References
 
-### Modified Gravity Emulators
+### Emulators
 
-#### nDGP
-- **Paper**: [nDGP - Fiorini 2023](https://arxiv.org/pdf/2310.05786)
-- **Documentation**: [nDGP Documentation](https://github.com/BartolomeoF/nDGPemu)
+| Category             | Emulator    | Paper | Documentation |
+|----------------------|-------------|-------|---------------|
+| **Modified Gravity**  | **nDGP**    | [nDGP - Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [nDGP Documentation](https://github.com/BartolomeoF/nDGPemu) |
+|                      | **e-mantis**| [e-mantis - Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [e-mantis Documentation](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
+| **LambdaCDM**         | **Bacco**   | [Bacco - Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Bacco Documentation](https://baccoemu.readthedocs.io/) |
 
-#### e-mantis
-- **Paper**: [e-mantis - Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899)
-- **Documentation**: [e-mantis Documentation](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html)
-
----
-
-### LambdaCDM Emulators
-
-#### Bacco
-- **Paper**: [Bacco - Aricò 2020](https://arxiv.org/pdf/2011.15018)
-- **Documentation**: [Bacco Documentation](https://baccoemu.readthedocs.io/)
 
 
 ---
