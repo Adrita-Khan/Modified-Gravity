@@ -214,6 +214,48 @@ Using a **multi-tracer approach**, data from different sources are combined to e
    - Paper: [e-mantis - Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899)  
    - Documentation: [e-mantis Documentation](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html)
 
+4. [Emcee Documentation](https://emcee.readthedocs.io/en/stable/)
+
+5. [PoCoMC Documentation](https://pocomc.readthedocs.io/en/latest/)
+
+6. [Corner Documentation](https://corner.readthedocs.io/en/latest/)
+
+7. [GetDist Documentation](https://getdist.readthedocs.io/en/latest/)
+
+8. [Astropy Cosmology Documentation](https://docs.astropy.org/en/stable/cosmology/index.html)
+
+9. [Astropy LambdaCDM Cosmology API](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html)
+
+10. [Astropy FLRW Cosmology API](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html)
+
+11. [Astropy Planck18 Cosmology API](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html)
+
+12. [Astropy Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html)
+
+13. [Astropy FlatLambdaCDM Cosmology API](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html)
+
+14. [Astropy FlatwCDM Cosmology API](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html)
+
+15. [Astropy Cosmology Units Documentation](https://docs.astropy.org/en/latest/cosmology/units.html)
+
+16. [Astropy Cosmology API](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html)
+
+17. [LSSTDESC NaMaster GitHub Repository](https://github.com/LSSTDESC/NaMaster)
+
+18. [NaMaster Documentation](https://namaster.readthedocs.io/en/latest/)
+
+19. [NaMaster Covariances Documentation](https://namaster.readthedocs.io/en/latest/3Covariances.html)
+
+20. **How to construct C_ells in pyccl**: [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb)
+
+21. **How to use emulators in pyccl** (includes Bacco example): [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb)
+
+22. **How to construct tomographic bins with LSST-like samples**: [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb)
+
+23. **How to implement emcee with pyccl**: [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb)
+
+24. [CCL Documentation](https://ccl.readthedocs.io/en/latest/)
+
 
 
 
