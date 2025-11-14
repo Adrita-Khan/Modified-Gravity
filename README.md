@@ -207,7 +207,7 @@ As part of this project and research, multiple emulators were explored and integ
 
 
 
-## References
+## References (more: [https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md))
 
 ### Emulators
 | Category | Emulator | Paper | Documentation |
