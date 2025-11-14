@@ -122,7 +122,7 @@ The approach for forecasting signatures of modified gravity involves cross-corre
 
 ---
 
-### 1. **Theoretical Framework**
+### **Theoretical Framework**
 
 Key models include:
 
@@ -136,14 +136,14 @@ Key Parameters:
 
 ---
 
-### 2. **Data Acquisition**
+### **Data Acquisition**
 
 * **Simons Observatory (SO)**: CMB Lensing Maps and tSZ Effect for studying large-scale structure and galaxy clusters.
 * **LSST at Rubin Observatory**: Galaxy Clustering and Weak Lensing for mapping matter density and cosmic shear.
 
 ---
 
-### 3. **Cross-Correlation Techniques**
+### **Cross-Correlation Techniques**
 
 Power Spectra Analysis:
 
@@ -154,14 +154,21 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ---
 
-### 4. **Forecasting and Statistical Analysis**
+### **Forecasting and Statistical Analysis**
 
 * **Fisher Matrix Forecasting**: Quantifies parameter constraints and breaks degeneracies between cosmological parameters.
 * **Emulator-Based Acceleration**: Uses **MGemu Emulator** for rapid computation of power spectra across parameter grids.
 
 ---
 
-### 5. **Implementation Tools**
+### Choice of Emulators
+
+As part of this project and research, multiple emulators were explored and integrated, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**, each offering unique capabilities for rapidly computing power spectra across different modified gravity and ΛCDM models. However, **nDGP**, **e-mantis**, and **Bacco** were ultimately selected based on performance, model coverage, and overall suitability for the analysis.
+
+
+---
+
+### **Implementation Tools**
 
 * **CosmoPower**: Theoretical power spectra generation.
 * **HEALPix and healpy**: Spherical data handling.
@@ -170,7 +177,7 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ---
 
-### 6. **Interpretation and Visualization**
+### **Interpretation and Visualization**
 
 * **Parameter Sensitivity**: Assess the impact of MG parameters on observables.
 * **Survey Specifications**: Simulate realistic measurements with survey details.
