@@ -236,8 +236,9 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 | Tomographic bins | [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
 | emcee + pyccl | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
-
-
+### healpy
+[healpy notebook](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb)  
+[healpy documentation](https://healpy.readthedocs.io/en/latest/)
 
 ## Contact
 
