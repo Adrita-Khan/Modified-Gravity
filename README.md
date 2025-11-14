@@ -203,68 +203,38 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 ## References
 
 ### Emulators
-
-| Category             | Emulator    | Paper | Documentation |
-|----------------------|-------------|-------|---------------|
-| **Modified Gravity**  | **nDGP**    | [nDGP - Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [nDGP Documentation](https://github.com/BartolomeoF/nDGPemu) |
-|                      | **e-mantis**| [e-mantis - Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [e-mantis Documentation](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
-| **LambdaCDM**         | **Bacco**   | [Bacco - Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Bacco Documentation](https://baccoemu.readthedocs.io/) |
-
-
-
----
+| Category | Emulator | Paper | Documentation |
+|----------|----------|-------|---------------|
+| **Modified Gravity** | **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [Docs](https://github.com/BartolomeoF/nDGPemu) |
+| | **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
+| **LambdaCDM** | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Docs](https://baccoemu.readthedocs.io/) |
 
 ### Statistical & Sampling Tools
-
-| Tool        | Documentation |
-|-------------|---------------|
-| **emcee**   | [emcee.readthedocs.io](https://emcee.readthedocs.io/en/stable/) |
-| **pocoMC**  | [pocomc.readthedocs.io](https://pocomc.readthedocs.io/en/latest/) |
-| **Corner**  | [corner.readthedocs.io](https://corner.readthedocs.io/en/latest/) |
+| Tool | Documentation |
+|------|---------------|
+| **emcee** | [emcee.readthedocs.io](https://emcee.readthedocs.io/en/stable/) |
+| **pocoMC** | [pocomc.readthedocs.io](https://pocomc.readthedocs.io/en/latest/) |
+| **Corner** | [corner.readthedocs.io](https://corner.readthedocs.io/en/latest/) |
 | **GetDist** | [getdist.readthedocs.io](https://getdist.readthedocs.io/en/latest/) |
 
-
----
-
 ### Astropy Cosmology
-
-| Category                | Resource                           | Link |
-|-------------------------|------------------------------------|------|
-| **General Documentation**| [Astropy Cosmology Overview](https://docs.astropy.org/en/stable/cosmology/index.html) | [Link](https://docs.astropy.org/en/stable/cosmology/index.html) |
-|                         | [Cosmology Base API](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) | [Link](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
-|                         | [Cosmology Units](https://docs.astropy.org/en/latest/cosmology/units.html) | [Link](https://docs.astropy.org/en/latest/cosmology/units.html) |
-| **Cosmology Models**     | [LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) |
-|                         | [FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) |
-|                         | [FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) |
-|                         | [FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
-| **Realizations & Utilities** | [Planck18 Realization](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) | [Link](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
-|                         | [Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) | [Link](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
-
-
----
+| Resource | Link |
+|----------|------|
+| [Overview](https://docs.astropy.org/en/stable/cosmology/index.html) • [Base API](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) • [Units](https://docs.astropy.org/en/latest/cosmology/units.html) | General |
+| [LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) • [FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) • [FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) • [FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) | Models |
+| [Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) • [Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) | Utilities |
 
 ### Angular Power Spectra & Correlations
+**NaMaster**: [GitHub](https://github.com/LSSTDESC/NaMaster) • [Docs](https://namaster.readthedocs.io/en/latest/) • [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html)  
+**CCL**: [Docs](https://ccl.readthedocs.io/en/latest/)
 
-#### NaMaster
-- **GitHub**: [LSSTDESC/NaMaster](https://github.com/LSSTDESC/NaMaster)
-- **Documentation**: [namaster.readthedocs.io](https://namaster.readthedocs.io/en/latest/)
-- **Covariances**: [Covariances Guide](https://namaster.readthedocs.io/en/latest/3Covariances.html)
-
-#### CCL (Core Cosmology Library)
-- **Documentation**: [ccl.readthedocs.io](https://ccl.readthedocs.io/en/latest/)
-
----
-
-### LSSTDESC Tutorials & Notebooks
-
+### LSSTDESC Tutorials
 | Topic | Notebook |
 |-------|----------|
-| Constructing C_ℓ in pyccl | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
-| Using emulators in pyccl (inc. Bacco) | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
-| Tomographic bins with LSST-like samples | [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
-| Implementing emcee with pyccl | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
-
----
+| C_ℓ in pyccl | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
+| Emulators (Bacco) | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
+| Tomographic bins | [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
+| emcee + pyccl | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
 
 
