@@ -247,7 +247,7 @@ As part of this project and research, multiple emulators were explored and integ
 **healpy**: [GitHub](https://github.com/healpy/healpy) • [Docs](https://healpy.readthedocs.io/en/latest/)  
 **Tutorial**: [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb)
 
-(more: [https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md))
+(more can be found in the extended reference list: [here](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md))
 
 ## Contact
 
