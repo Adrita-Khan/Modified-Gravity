@@ -2,8 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Adrita-Khan/Modified-Gravity)](https://github.com/Adrita-Khan/Modified-Gravity/stargazers)
+[![Issues](https://img.shields.io/badge/issues-0_open-green.svg)](https://github.com/Adrita-Khan/Modified-Gravity/issues)
+[![Stars](https://img.shields.io/badge/stars-welcome-brightgreen.svg)](https://github.com/Adrita-Khan/Modified-Gravity/stargazers)
 
 *Note: This project is ongoing and subject to continuous advancements and modifications.*
 
