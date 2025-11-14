@@ -202,14 +202,18 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ## References:
 
-* Bacco: [https://arxiv.org/pdf/2011.15018](https://arxiv.org/pdf/2011.15018) (Aric`o2020)
-  Documentation: [https://baccoemu.readthedocs.io/](https://baccoemu.readthedocs.io/)
+1. **Bacco**:  
+   - Paper: [Bacco - Aricò 2020](https://arxiv.org/pdf/2011.15018)  
+   - Documentation: [Bacco Documentation](https://baccoemu.readthedocs.io/)
 
-* nDGP: [https://arxiv.org/pdf/2310.05786](https://arxiv.org/pdf/2310.05786) (Fiorini2023)
-  Documentation: [https://github.com/BartolomeoF/nDGPemu](https://github.com/BartolomeoF/nDGPemu)
+2. **nDGP**:  
+   - Paper: [nDGP - Fiorini 2023](https://arxiv.org/pdf/2310.05786)  
+   - Documentation: [nDGP Documentation](https://github.com/BartolomeoF/nDGPemu)
 
-* e-mantis: [https://arxiv.org/pdf/2303.08899](https://arxiv.org/pdf/2303.08899) (Sáez-Casares2023)
-  Documentation: [https://e-mantis.pages.obspm.fr/e-mantis/main/index.html](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html)
+3. **e-mantis**:  
+   - Paper: [e-mantis - Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899)  
+   - Documentation: [e-mantis Documentation](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html)
+
 
 
 
