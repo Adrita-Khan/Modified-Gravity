@@ -11,20 +11,6 @@ The project aims to **forecast the signatures of modified gravity theories** thr
 
 ---
 
-## Table of Contents
-
-- [Why Modified Gravity?](#why-modified-gravity)
-- [Theories to be Tested](#theories-to-be-tested)
-- [Why Cross-Correlation?](#why-cross-correlation)
-- [Project Description](#project-description)
-- [Goals](#goals)
-- [Methodology](#methodology)
-- [Repository Structure](#repository-structure)
-- [References](#references)
-- [Contact](#contact)
-
----
-
 ## Why Modified Gravity?
 
 While the ΛCDM framework fits many observations, it relies on undetected dark energy and dark matter. Modified gravity theories offer an alternative explanation for cosmic acceleration and large-scale structure formation, without invoking unknown components. These theories modify the Poisson equation and gravitational potentials, creating observable signatures in the large-scale structure of the Universe, which can be tested through galaxy clustering and weak lensing.
