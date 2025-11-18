@@ -338,10 +338,5 @@ As part of this project and research, multiple emulators were explored and integ
 
 ## Contact
 
-**Adrita Khan**
-
-| Platform | Link |
-|----------|------|
-| Email | [adrita.khan.official@gmail.com](mailto:adrita.khan.official@gmail.com) |
-| LinkedIn | [linkedin.com/in/adrita-khan](https://www.linkedin.com/in/adrita-khan) |
-| Twitter | [x.com/Adrita_](https://x.com/Adrita_) |
+**Adrita Khan**  
+[Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
