@@ -81,7 +81,7 @@ This project involves calculating and analyzing the following power spectra:
 | **Galaxy–Galaxy power spectrum** | Auto-correlation | $C_\ell^{gg}$ |
 | **Galaxy–CMB lensing cross-power spectrum** | Cross-correlation | $C_\ell^{\kappa g}$ |
 
-Both theoretical models (e.g., CosmoPower, MGemu emulator) and observational data from LSST/DESC and the Simons Observatory are used.
+Only theoretical models (e.g., nDGP, e-mantis, and Bacco) are used.
 
 ---
 
@@ -95,11 +95,10 @@ The project forecasts the ability of future cosmological surveys to constrain mo
 
 | Component | Description |
 |-----------|-------------|
-| **Synthetic Observables** | Theoretical power spectra from various MG models, using tools like **CAMB**, **MGemu Emulator**, and **PPF** formalisms |
-| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory |
+| **Synthetic Observables** | Theoretical power spectra from MG models, using **nDGP**, **e-mantis**, and **Bacco**                 |
+| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (will be added in the future)|
 | **Fisher Matrix Analysis** | Quantifies the precision of cosmological and MG parameter constraints |
 | **Bias and Degeneracy Evaluation** | Assesses degeneracies between MG and ΛCDM parameters |
-| **Emulator-Based Acceleration** | Speeds up parameter space exploration using **MGemu Emulator** |
 
 This pipeline provides a **forecasting tool for MG detectability** by assessing how specific MG models affect cross-correlation observables.
 
