@@ -103,21 +103,6 @@ The project forecasts the ability of future cosmological surveys to constrain mo
 
 This pipeline provides a **forecasting tool for MG detectability** by assessing how specific MG models affect cross-correlation observables.
 
----
-
-### Literature Review
-
-- [ ] Review of Power Spectrum and 2PCF under linear theory
-- [ ] Study of [HEALPix](https://healpix.sourceforge.io) and `healpy` for spherical map handling
-- [ ] Exploration of key modified gravity theories (e.g., f(R), Horndeski, DGP)
-- [ ] Understanding of [CosmoPower](https://alessiospuriomancini.github.io/cosmopower/)
-- [ ] Exploration of [MGemu Emulator](https://github.com/LSSTDESC/mgemu) for rapid power spectrum computation
-
-### Project Sketch
-
-- [ ] Custom functions for Galaxy–Galaxy power spectrum and Galaxy–CMB lensing cross-power spectrum
-- [ ] Integration of realistic survey specifications from LSST/DESC and Simons Observatory
-- [ ] Visualization and interpretation of theoretical and observational power spectra
 
 ---
 
