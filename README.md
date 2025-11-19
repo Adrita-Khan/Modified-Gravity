@@ -178,16 +178,6 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 As part of this project and research, multiple emulators were explored and integrated, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**, each offering unique capabilities for rapidly computing power spectra across different modified gravity and ΛCDM models. However, **nDGP**, **e-mantis**, and **Bacco** were ultimately selected based on performance, model coverage, and overall suitability for the analysis.
 
----
-
-### Implementation Tools
-
-| Tool | Purpose |
-|------|---------|
-| **CosmoPower** | Theoretical power spectra generation |
-| **HEALPix and healpy** | Spherical data handling |
-| **JAX** | Optimization of computational pipelines |
-| **MGemu Emulator** | Fast computation of MG model spectra |
 
 ---
 
