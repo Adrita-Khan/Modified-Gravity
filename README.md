@@ -175,49 +175,8 @@ As part of this project and research, multiple emulators were explored and integ
 
 ---
 
-## Repository Structure
 
-```bash
-├── FREmu/                         # f(R) modified-gravity emulator
-├── Notebooks/                     # Jupyter notebooks for analysis & validation
-├── Scripts/                       # Pipeline scripts and utilities
-├── analysis_utils/                # Shared helper functions for analysis
-├── baccoemu/                      # BACCO emulator (ΛCDM + extensions)
-├── baccoemu_emantis_analysis/     # Cross-analysis between BACCOemu and e-MANTIS
-├── e-MANTIS/                      # Emulator for nonlinear matter power spectrum
-├── mgemu/                         # Modified-gravity emulator (general MG models)
-├── nDGPemu/                       # nDGP model emulator
-├── plots/                         # Generated plots and figures
-├── pyccl_integration/             # CCL / PyCCL integration tests and wrappers
-├── survey-realism/                # Survey noise, beams, masking, & realism modules
-│
-├── CMB_Galaxy_Cross_Correlation_Formula_List_MG.md
-│                                   # MG-specific Cℓ and cross-correlation formulas
-├── Dockerfile.txt                 # Docker build configuration
-├── LICENSE                        # License information
-├── Limber_Eqaution_Mathematical_Formulation.md
-│                                   # Limber integral and mathematical derivations
-├── MG_crosscorr_README.md         # Documentation on MG cross-correlation pipeline
-├── README.md                      # Project overview and instructions
-├── constrain_parameters.md        # Parameter constraints summary
-├── cosmo_mcmc_pipeline_algorithm.md
-│                                   # MCMC pipeline description
-├── cosmological_parameters_and_modified_gravity.md
-│                                   # Theory background notes
-├── galaxy_cmb_lensing_pipeline.md # CMB × galaxy lensing pipeline
-├── mcmc_cosmological_parameters_summary.md
-│                                   # Summary of inferred parameters
-├── mgemu_parameter_priors.md      # Prior files for MG emulators
-├── multipole-moment-lmax.md       # Notes on multipole selection and l_max
-├── references.md                  # Reference list / bibliography
-├── requirements.txt               # Python dependencies
-├── worklog.md                     # Daily/weekly work logs
 
-```
-
-*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models, observational data, and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations.*
-
----
 
 
 ## Survey Specifications
@@ -314,3 +273,7 @@ As part of this project and research, multiple emulators were explored and integ
 
 **Adrita Khan**  
 [Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
+
+---
+
+*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models, and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations.*
