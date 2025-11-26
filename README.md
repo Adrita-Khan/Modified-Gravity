@@ -154,7 +154,7 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 | Method | Purpose |
 |--------|---------|
 | **Fisher Matrix Forecasting** | Quantifies parameter constraints and breaks degeneracies between cosmological parameters |
-| **Emulator-Based Acceleration** | Uses **MGemu Emulator** for rapid computation of power spectra across parameter grids |
+| **Emulator-Based Acceleration** | Uses **nDGP**, **e-mantis**, and **Bacco** for rapid computation of power spectra across parameter grids |
 
 ---
 
