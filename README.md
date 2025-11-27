@@ -15,13 +15,12 @@ The project aims to **forecast the signatures of modified gravity theories** thr
 
 While the ΛCDM framework fits many observations, it relies on undetected dark energy and dark matter. Modified gravity theories offer an alternative explanation for cosmic acceleration and large-scale structure formation, without invoking unknown components. These theories modify the Poisson equation and gravitational potentials, creating observable signatures in the large-scale structure of the Universe, which can be tested through galaxy clustering and weak lensing.
 
----
+### Modified Gravity Theories
 
-| Theory           | Description                                                                                                                                                                                                    | Key Parameters                   |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| **f(R) Gravity** | Replaces the Ricci scalar (R) in the Einstein-Hilbert action with a function (f(R)). Predicts scale-dependent growth rates and modified lensing potentials; scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth   |
-| **DGP Gravity**  | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant; extra-dimensional braneworld models.                        | `Ω_rc`, self-accelerating branch |
-
+| Theory | Description | Key Parameters |
+|--------|-------------|-----------------|
+| **f(R) Gravity** | Replaces the Ricci scalar (R) in the Einstein-Hilbert action with a function (f(R)). Predicts scale-dependent growth rates and modified lensing potentials; scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth |
+| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant; extra-dimensional braneworld models. | `Ω_rc`, self-accelerating branch |
 
 ---
 
@@ -52,8 +51,6 @@ graph TD
 | **Amplify signals** | Via joint analysis of multiple tracers |
 
 ### Key Observables
-
-This method amplifies signal strength, particularly for:
 
 | Observable | Type | Description |
 |------------|------|-------------|
@@ -87,23 +84,12 @@ The project forecasts the ability of future cosmological surveys to constrain mo
 
 | Component | Description |
 |-----------|-------------|
-| **Synthetic Observables** | Theoretical power spectra from MG models, using **nDGP**, **e-mantis**, and **Bacco**                 |
-| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (will be added in the future)|
+| **Synthetic Observables** | Theoretical power spectra from MG models, using **nDGP**, **e-mantis**, and **Bacco** |
+| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (will be added in the future) |
 | **Fisher Matrix Analysis** | Quantifies the precision of cosmological and MG parameter constraints |
 | **Bias and Degeneracy Evaluation** | Assesses degeneracies between MG and ΛCDM parameters |
 
 This pipeline provides a **forecasting tool for MG detectability** by assessing how specific MG models affect cross-correlation observables.
-
-
----
-
-### Key Components
-
-| Component | Description | Tools |
-|-----------|-------------|-------|
-| **Synthetic Observables** | Generate theoretical power spectra | **nDGP**, **e-mantis**, and **Bacco** |
-| **Fisher Analysis** | Forecast parameter constraints | Custom Fisher matrix code |
-| **Emulator Integration** | Accelerate parameter space exploration | Neural network interpolation |
 
 ---
 
@@ -116,9 +102,6 @@ This pipeline provides a **forecasting tool for MG detectability** by assessing 
 | **f(R) Gravity** | Modifications to General Relativity by altering the Ricci scalar $R$ | **$f_R0$**: Amplitude of f(R) modifications |
 | **DGP Gravity** | Extra dimensions affect gravitational interactions | **$\gamma$**: Growth index in DGP models |
 
-
----
-
 ### Cross-Correlation Techniques
 
 #### Power Spectra Analysis
@@ -130,8 +113,6 @@ This pipeline provides a **forecasting tool for MG detectability** by assessing 
 
 Using a **multi-tracer approach**, data from different sources are combined to enhance signal-to-noise and reduce systematics.
 
----
-
 ### Forecasting and Statistical Analysis
 
 | Method | Purpose |
@@ -139,14 +120,9 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 | **Fisher Matrix Forecasting** | Quantifies parameter constraints and breaks degeneracies between cosmological parameters |
 | **Emulator-Based Acceleration** | Uses **nDGP**, **e-mantis**, and **Bacco** for rapid computation of power spectra across parameter grids |
 
----
-
 ### Choice of Emulators
 
 As part of this project and research, multiple emulators were explored and integrated, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**, each offering unique capabilities for rapidly computing power spectra across different modified gravity and ΛCDM models. However, **nDGP**, **e-mantis**, and **Bacco** were ultimately selected based on performance, model coverage, and overall suitability for the analysis.
-
-
----
 
 ### Interpretation and Visualization
 
@@ -157,8 +133,6 @@ As part of this project and research, multiple emulators were explored and integ
 | **Bias Evaluation** | Identify biases and systematics in parameter estimation due to MG effects |
 
 ---
-
-
 
 ## References
 
