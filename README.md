@@ -19,10 +19,17 @@ While the ΛCDM framework fits many observations, it relies on undetected dark e
 
 ## Theories to be Tested
 
-| Theory | Description | Key Parameters |
-|--------|-------------|----------------|
-| **f(R) Gravity** | Replaces the Ricci scalar $R$ in the Einstein-Hilbert action with a function $f(R)$, predicting scale-dependent growth rates and modified lensing potentials. Scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth |
-| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant. Extra-dimensional braneworld models. | `Ω_rc`, self-accelerating branch |
+| Theory | Description |
+|--------|-------------|
+| **f(R) Gravity** | Replaces the Ricci scalar $R$ in the Einstein-Hilbert action with a function $f(R)$, predicting scale-dependent growth rates and modified lensing potentials. |
+| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant. |
+
+
+
+| Theory           | Description                                                  | Key Parameters                   |
+| ---------------- | ------------------------------------------------------------ | -------------------------------- |
+| **f(R) Gravity** | Scalar-tensor theories with modified Ricci scalar            | `f_R0`, scale-dependent growth   |
+| **DGP**          | Extra-dimensional braneworld models                          | `Ω_rc`, self-accelerating branch |
 
 ---
 
@@ -89,7 +96,7 @@ The project forecasts the ability of future cosmological surveys to constrain mo
 | Component | Description |
 |-----------|-------------|
 | **Synthetic Observables** | Theoretical power spectra from MG models, using **nDGP**, **e-mantis**, and **Bacco**                 |
-| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory |
+| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (will be added in the future)|
 | **Fisher Matrix Analysis** | Quantifies the precision of cosmological and MG parameter constraints |
 | **Bias and Degeneracy Evaluation** | Assesses degeneracies between MG and ΛCDM parameters |
 
@@ -167,6 +174,10 @@ As part of this project and research, multiple emulators were explored and integ
 | **Bias Evaluation** | Identify biases and systematics in parameter estimation due to MG effects |
 
 ---
+
+
+
+
 
 ## Survey Specifications
 
