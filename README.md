@@ -11,23 +11,15 @@ The project aims to **forecast the signatures of modified gravity theories** thr
 
 ---
 
-## Why Modified Gravity?
+## Overview
+
+### Why Modified Gravity?
 
 While the ΛCDM framework fits many observations, it relies on undetected dark energy and dark matter. Modified gravity theories offer an alternative explanation for cosmic acceleration and large-scale structure formation, without invoking unknown components. These theories modify the Poisson equation and gravitational potentials, creating observable signatures in the large-scale structure of the Universe, which can be tested through galaxy clustering and weak lensing.
 
-### Modified Gravity Theories
-
-| Theory | Description | Key Parameters |
-|--------|-------------|-----------------|
-| **f(R) Gravity** | Replaces the Ricci scalar (R) in the Einstein-Hilbert action with a function (f(R)). Predicts scale-dependent growth rates and modified lensing potentials; scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth |
-| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant; extra-dimensional braneworld models. | `Ω_rc`, self-accelerating branch |
-
----
-
-## Why Cross-Correlation?
+### Why Cross-Correlation?
 
 Cross-correlation techniques break degeneracies between cosmological parameters and reduce systematic errors by combining uncorrelated datasets.
-
 ```mermaid
 graph TD
     A[Single Probe] --> B[Parameter Degeneracies]
@@ -42,7 +34,7 @@ graph TD
     G --> H
 ```
 
-### Advantages
+#### Advantages of Cross-Correlation
 
 | Advantage | Description |
 |-----------|-------------|
@@ -50,42 +42,42 @@ graph TD
 | **Mitigate systematics** | Through uncorrelated noise cancellation |
 | **Amplify signals** | Via joint analysis of multiple tracers |
 
+---
+
+## Modified Gravity Theories & Key Observables
+
+### Modified Gravity Models
+
+| Theory | Description | Key Parameters |
+|--------|-------------|-----------------|
+| **f(R) Gravity** | Replaces the Ricci scalar (R) in the Einstein-Hilbert action with a function (f(R)). Predicts scale-dependent growth rates and modified lensing potentials; scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth |
+| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant; extra-dimensional braneworld models. | `Ω_rc` (or `γ` growth index), self-accelerating branch |
+
 ### Key Observables
 
-| Observable | Type | Description |
-|------------|------|-------------|
-| **$C_\ell^{gg}$** | Galaxy–Galaxy Clustering | *Auto-correlation* |
-| **$C_\ell^{\kappa g}$** | Galaxy–CMB Lensing Cross-Correlation | *Cross-correlation* |
+| Observable | Type | Notation | Description |
+|------------|------|----------|-------------|
+| **Galaxy–Galaxy Clustering** | Auto-correlation | $C_\ell^{gg}$ (GG) | Measures galaxy clustering |
+| **Galaxy–CMB Lensing Cross-Correlation** | Cross-correlation | $C_\ell^{\kappa g}$ (GCMB) | Measures galaxy-lensing correlation |
 
 These observables provide insights into structure growth and gravitational lensing effects, crucial for probing modified gravity.
 
 ---
 
-## Project Description
+## Project Description & Goals
 
-This project involves calculating and analyzing the following power spectra:
-
-| Power Spectrum | Type | Notation |
-|----------------|------|----------|
-| **Galaxy–Galaxy power spectrum** | Auto-correlation | $C_\ell^{gg}$ |
-| **Galaxy–CMB lensing cross-power spectrum** | Cross-correlation | $C_\ell^{\kappa g}$ |
-
-Only theoretical models (e.g., nDGP, e-mantis, and Bacco) are used.
-
----
-
-## Goals
+This project calculates and analyzes **galaxy–galaxy power spectra** ($C_\ell^{gg}$) and **galaxy–CMB lensing cross-power spectra** ($C_\ell^{\kappa g}$) using theoretical models including **nDGP**, **e-mantis**, and **Bacco** emulators.
 
 ### Forecasting Capability
 
 The project forecasts the ability of future cosmological surveys to constrain modified gravity theories. Using mock observations and theoretical predictions, the framework evaluates how well upcoming data can differentiate between General Relativity and alternative gravity models.
 
-#### Forecasting Pipeline Components
+#### Forecasting Pipeline
 
 | Component | Description |
 |-----------|-------------|
-| **Synthetic Observables** | Theoretical power spectra from MG models, using **nDGP**, **e-mantis**, and **Bacco** |
-| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (will be added in the future) |
+| **Synthetic Observables** | Theoretical power spectra from MG models using **nDGP**, **e-mantis**, and **Bacco** |
+| **Survey Modeling** | Incorporation of survey characteristics (e.g., sky coverage, galaxy density) from LSST/DESC and Simons Observatory (to be added) |
 | **Fisher Matrix Analysis** | Quantifies the precision of cosmological and MG parameter constraints |
 | **Bias and Degeneracy Evaluation** | Assesses degeneracies between MG and ΛCDM parameters |
 
@@ -95,23 +87,9 @@ This pipeline provides a **forecasting tool for MG detectability** by assessing 
 
 ## Methodology
 
-### Theoretical Framework
+### Theoretical Framework & Cross-Correlation Techniques
 
-| Model | Description | Key Parameters |
-|-------|-------------|----------------|
-| **f(R) Gravity** | Modifications to General Relativity by altering the Ricci scalar $R$ | **$f_R0$**: Amplitude of f(R) modifications |
-| **DGP Gravity** | Extra dimensions affect gravitational interactions | **$\gamma$**: Growth index in DGP models |
-
-### Cross-Correlation Techniques
-
-#### Power Spectra Analysis
-
-| Observable | Type | Notation |
-|------------|------|----------|
-| **Galaxy–Galaxy** | Auto-correlation | $C_\ell^{gg}$ (GG) |
-| **Galaxy–CMB Lensing** | Cross-correlation | $C_\ell^{\kappa g}$ (GCMB) |
-
-Using a **multi-tracer approach**, data from different sources are combined to enhance signal-to-noise and reduce systematics.
+The project uses a **multi-tracer approach**, combining data from different sources to enhance signal-to-noise and reduce systematics through power spectra analysis of galaxy–galaxy auto-correlation and galaxy–CMB lensing cross-correlation.
 
 ### Forecasting and Statistical Analysis
 
@@ -122,7 +100,7 @@ Using a **multi-tracer approach**, data from different sources are combined to e
 
 ### Choice of Emulators
 
-As part of this project and research, multiple emulators were explored and integrated, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**, each offering unique capabilities for rapidly computing power spectra across different modified gravity and ΛCDM models. However, **nDGP**, **e-mantis**, and **Bacco** were ultimately selected based on performance, model coverage, and overall suitability for the analysis.
+Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**. Ultimately, **nDGP**, **e-mantis**, and **Bacco** were selected based on performance, model coverage, and suitability for the analysis.
 
 ### Interpretation and Visualization
 
@@ -142,7 +120,7 @@ As part of this project and research, multiple emulators were explored and integ
 |----------|----------|-------|---------------|
 | **Modified Gravity** | **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [Docs](https://github.com/BartolomeoF/nDGPemu) |
 | | **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
-| **LambdaCDM** | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Docs](https://baccoemu.readthedocs.io/) |
+| **ΛCDM** | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Docs](https://baccoemu.readthedocs.io/) |
 
 ### Statistical & Sampling Tools
 
@@ -155,29 +133,17 @@ As part of this project and research, multiple emulators were explored and integ
 
 ### Astropy Cosmology
 
-#### General Resources
-
-| Resource | Link |
-|----------|------|
-| Overview | [docs.astropy.org/en/stable/cosmology/](https://docs.astropy.org/en/stable/cosmology/index.html) |
-| Base API | [astropy.cosmology.Cosmology](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
-| Units | [cosmology/units](https://docs.astropy.org/en/latest/cosmology/units.html) |
-
-#### Cosmological Models
-
-| Model | Documentation |
-|-------|---------------|
-| **LambdaCDM** | [astropy.cosmology.LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) |
-| **FlatLambdaCDM** | [astropy.cosmology.FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) |
-| **FlatwCDM** | [astropy.cosmology.FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) |
-| **FLRW** | [astropy.cosmology.FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
-
-#### Utilities
-
-| Utility | Documentation |
-|---------|---------------|
-| **Planck18** | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
-| **Redshift-Distance Units** | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
+| Category | Resource | Link |
+|----------|----------|------|
+| **General** | Overview | [docs.astropy.org/cosmology](https://docs.astropy.org/en/stable/cosmology/index.html) |
+| | Base API | [astropy.cosmology.Cosmology](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
+| | Units | [cosmology/units](https://docs.astropy.org/en/latest/cosmology/units.html) |
+| **Models** | LambdaCDM | [astropy.cosmology.LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) |
+| | FlatLambdaCDM | [astropy.cosmology.FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) |
+| | FlatwCDM | [astropy.cosmology.FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) |
+| | FLRW | [astropy.cosmology.FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
+| **Utilities** | Planck18 | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
+| | Redshift-Distance Units | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
 ### Angular Power Spectra & Correlations
 
@@ -214,4 +180,4 @@ As part of this project and research, multiple emulators were explored and integ
 
 ---
 
-*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models, and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations.*
+*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations.*
