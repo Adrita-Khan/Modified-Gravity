@@ -169,25 +169,6 @@ As part of this project and research, multiple emulators were explored and integ
 
 
 
-
-
-## Survey Specifications
-
-### LSST/DESC (Legacy Survey of Space and Time)
-
-* **Sky Coverage:** 18,000 deg²
-* **Depth:** i < 25.3 (10σ)
-* **Redshift Range:** 0.1 < z < 3.0
-* **Galaxy Density:** ~27 gal/arcmin²
-
-### Simons Observatory
-
-* **Sky Coverage:** 40% of sky
-* **Angular Resolution:** 1.4' (90 GHz)
-* **Sensitivity:** 2 μK-arcmin (90 GHz)
-* **CMB Lensing:** κ maps to ℓ_max ~ 3000
-
-
 ## References
 
 ### Emulators
