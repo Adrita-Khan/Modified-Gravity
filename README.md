@@ -102,7 +102,6 @@ This pipeline provides a **forecasting tool for MG detectability** by assessing 
 | Component | Description | Tools |
 |-----------|-------------|-------|
 | **Synthetic Observables** | Generate theoretical power spectra | **nDGP**, **e-mantis**, and **Bacco** |
-| **Survey Modeling** | Incorporate realistic survey specifications | LSST/DESC, Simons Observatory |
 | **Fisher Analysis** | Forecast parameter constraints | Custom Fisher matrix code |
 | **Emulator Integration** | Accelerate parameter space exploration | Neural network interpolation |
 
