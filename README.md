@@ -117,14 +117,6 @@ This pipeline provides a **forecasting tool for MG detectability** by assessing 
 | **f(R) Gravity** | Modifications to General Relativity by altering the Ricci scalar $R$ | **$f_R0$**: Amplitude of f(R) modifications |
 | **DGP Gravity** | Extra dimensions affect gravitational interactions | **$\gamma$**: Growth index in DGP models |
 
----
-
-### Data Acquisition
-
-| Observatory | Data Products | Applications |
-|-------------|---------------|--------------|
-| **Simons Observatory (SO)** | CMB Lensing Maps, tSZ Effect | Studying large-scale structure and galaxy clusters |
-| **LSST at Rubin Observatory** | Galaxy Clustering, Weak Lensing | Mapping matter density and cosmic shear |
 
 ---
 
