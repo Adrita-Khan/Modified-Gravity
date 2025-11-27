@@ -17,19 +17,11 @@ While the ΛCDM framework fits many observations, it relies on undetected dark e
 
 ---
 
-## Theories to be Tested
+| Theory           | Description                                                                                                                                                                                                    | Key Parameters                   |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **f(R) Gravity** | Replaces the Ricci scalar (R) in the Einstein-Hilbert action with a function (f(R)). Predicts scale-dependent growth rates and modified lensing potentials; scalar-tensor theories with modified Ricci scalar. | `f_R0`, scale-dependent growth   |
+| **DGP Gravity**  | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant; extra-dimensional braneworld models.                        | `Ω_rc`, self-accelerating branch |
 
-| Theory | Description |
-|--------|-------------|
-| **f(R) Gravity** | Replaces the Ricci scalar $R$ in the Einstein-Hilbert action with a function $f(R)$, predicting scale-dependent growth rates and modified lensing potentials. |
-| **DGP Gravity** | A braneworld scenario where gravity leaks into an extra dimension at large scales, leading to cosmic acceleration without a cosmological constant. |
-
-
-
-| Theory           | Description                                                  | Key Parameters                   |
-| ---------------- | ------------------------------------------------------------ | -------------------------------- |
-| **f(R) Gravity** | Scalar-tensor theories with modified Ricci scalar            | `f_R0`, scale-dependent growth   |
-| **DGP**          | Extra-dimensional braneworld models                          | `Ω_rc`, self-accelerating branch |
 
 ---
 
