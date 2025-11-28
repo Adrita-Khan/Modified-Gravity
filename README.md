@@ -115,7 +115,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 
 ## References
 
-### Emulators • HEALPix/healpy • Angular Power Spectra 
+### *Emulators • HEALPix/healpy • Angular Power Spectra* 
 
 | **Emulator** | **Links** | **HEALPix / healpy** | **Links** | **Angular Power Spectra** | **Links** |
 |--------------|-----------|-----------------------|-----------|----------------------------|-----------|
@@ -124,7 +124,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) | **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
 
-### Statistical Tools • LSSTDESC Tutorials 
+### *Statistical Tools • LSSTDESC Tutorials* 
 
 | **Statistical / Sampling Tool** | **Docs** | **LSSTDESC Tutorial** | **Notebook** |
 |----------------------------------|----------|------------------------|--------------|
@@ -134,7 +134,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | **GetDist** | [Docs](https://getdist.readthedocs.io/en/latest/) | **emcee + pyccl** | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
 
-### Astropy Cosmology
+### *Astropy Cosmology*
 
 | Category | Resource | Link |
 |----------|----------|------|
