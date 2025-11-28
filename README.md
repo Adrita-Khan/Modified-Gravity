@@ -124,14 +124,15 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) | **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
 
-### Statistical & Sampling Tools
+### Statistical Tools • LSSTDESC Tutorials 
 
-| Tool | Documentation |
-|------|---------------|
-| **emcee** | [emcee.readthedocs.io](https://emcee.readthedocs.io/en/stable/) |
-| **pocoMC** | [pocomc.readthedocs.io](https://pocomc.readthedocs.io/en/latest/) |
-| **Corner** | [corner.readthedocs.io](https://corner.readthedocs.io/en/latest/) |
-| **GetDist** | [getdist.readthedocs.io](https://getdist.readthedocs.io/en/latest/) |
+| **Statistical / Sampling Tool** | **Docs** | **LSSTDESC Tutorial** | **Notebook** |
+|----------------------------------|----------|------------------------|--------------|
+| **emcee** | [Docs](https://emcee.readthedocs.io/en/stable/) | **C_ℓ in pyccl** | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
+| **pocoMC** | [Docs](https://pocomc.readthedocs.io/en/latest/) | **Emulators (Bacco)** | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
+| **Corner** | [Docs](https://corner.readthedocs.io/en/latest/) | **Tomographic bins** | [Redshift_Distributions.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
+| **GetDist** | [Docs](https://getdist.readthedocs.io/en/latest/) | **emcee + pyccl** | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
+
 
 ### Astropy Cosmology
 
@@ -147,16 +148,6 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | **Utilities** | Planck18 | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
 | | Redshift-Distance Units | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
-
-
-### LSSTDESC Tutorials
-
-| Topic | Notebook |
-|-------|----------|
-| C_ℓ in pyccl | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
-| Emulators (Bacco) | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
-| Tomographic bins | [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
-| emcee + pyccl | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
 
 
