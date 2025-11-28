@@ -114,13 +114,16 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 
 ## References
 
-### Emulators
+## References
 
-| Category | Emulator | Paper | Documentation |
-|----------|----------|-------|---------------|
-| **Modified Gravity** | **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [Docs](https://github.com/BartolomeoF/nDGPemu) |
-| | **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
-| **ΛCDM** | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Docs](https://baccoemu.readthedocs.io/) |
+### Emulators & HEALPix/healpy (Side-by-Side)
+
+| **Emulator** | **Links** | **HEALPix / healpy** | **Links** |
+|--------------|-----------|-----------------------|-----------|
+| **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) • [Docs](https://github.com/BartolomeoF/nDGPemu) | **healpy GitHub** | [healpy](https://github.com/healpy/healpy) |
+| **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) • [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) | **healpy Docs** | [healpy.readthedocs.io](https://healpy.readthedocs.io/en/latest/) |
+| **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) |
+
 
 ### Statistical & Sampling Tools
 
@@ -161,13 +164,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | Tomographic bins | [LSST_SRD_Redshift_Distributions_and_Binning.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
 | emcee + pyccl | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
-### HEALPix/healpy
 
-| Resource | Link |
-|----------|------|
-| **healpy GitHub** | [github.com/healpy/healpy](https://github.com/healpy/healpy) |
-| **healpy Docs** | [healpy.readthedocs.io](https://healpy.readthedocs.io/en/latest/) |
-| **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) |
 
 *More references can be found in the extended reference list: [here](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md)*
 
