@@ -112,17 +112,16 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 
 ---
 
-## References
 
 ## References
 
-### Emulators & HEALPix/healpy (Side-by-Side)
+### Emulators • HEALPix/healpy • Angular Power Spectra 
 
-| **Emulator** | **Links** | **HEALPix / healpy** | **Links** |
-|--------------|-----------|-----------------------|-----------|
-| **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) • [Docs](https://github.com/BartolomeoF/nDGPemu) | **healpy GitHub** | [healpy](https://github.com/healpy/healpy) |
-| **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) • [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) | **healpy Docs** | [healpy.readthedocs.io](https://healpy.readthedocs.io/en/latest/) |
-| **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) |
+| **Emulator** | **Links** | **HEALPix / healpy** | **Links** | **Angular Power Spectra** | **Links** |
+|--------------|-----------|-----------------------|-----------|----------------------------|-----------|
+| **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) • [Docs](https://github.com/BartolomeoF/nDGPemu) | **healpy GitHub** | [healpy](https://github.com/healpy/healpy) | **NaMaster** | [GitHub](https://github.com/LSSTDESC/NaMaster) • [Docs](https://namaster.readthedocs.io/en/latest/) |
+| **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) • [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) | **healpy Docs** | [readthedocs](https://healpy.readthedocs.io/en/latest/) | **NaMaster Covariances** | [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html) |
+| **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) | **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
 
 ### Statistical & Sampling Tools
@@ -148,12 +147,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 | **Utilities** | Planck18 | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
 | | Redshift-Distance Units | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
-### Angular Power Spectra & Correlations
 
-| Tool | Resources |
-|------|-----------|
-| **NaMaster** | [GitHub](https://github.com/LSSTDESC/NaMaster) • [Docs](https://namaster.readthedocs.io/en/latest/) • [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html) |
-| **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
 ### LSSTDESC Tutorials
 
