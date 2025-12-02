@@ -103,7 +103,7 @@ The project uses a **multi-tracer approach**, combining data from different sour
 Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, **MGemu**, **fRemu**, and **Cosmopower**. Ultimately, **nDGP**, **e-mantis**, and **Bacco** were selected based on performance, model coverage, and suitability for the analysis.
 
 
-## Nonlinear Parameter Comparison: Bacco, e-MANTIS, and nDGP
+## Nonlinear Parameter Comparison: Bacco, e-MANTIS, and nDGP (using $\sigma_8$)
 
 | Parameter | Bacco (Nonlinear P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
 |-----------|------------------------|----------------------|-----------------|
@@ -131,7 +131,30 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 **nDGP** provides predictions for nDGP gravity with the tightest parameter constraints but extends to lower wavenumbers (k = 0.01). Like e-MANTIS, it returns a boost factor for the modified gravity signature.
 
 
+## Nonlinear Parameter Comparison: Bacco, e-MANTIS, and nDGP (Using $A_s$)
 
+| Parameter | Bacco (Nonlinear P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
+|-----------|------------------------|----------------------|-----------------|
+| **Cold matter density** $\Omega_{cb}$ | 0.23–0.40 | 0.155–0.465 | 0.28–0.36 |
+| **Baryon density** $\Omega_b$ | 0.04–0.06 | 0.037–0.062 | 0.04–0.06 |
+| **Primordial amplitude** $A_s$ | ~1.7×10⁻⁹ (tuned from $\sigma_8$) | ~1.5–2.0×10⁻⁹ (internal) | 1.7–2.5×10⁻⁹ |
+| **Spectral index** $n_s$ | 0.92–1.01 | 0.72–1.20 | 0.92–1.00 |
+| **Hubble parameter** $h$ | 0.60–0.80 | 0.55–0.85 | 0.61–0.73 |
+| **Neutrino mass** $\Sigma m_\nu$ | 0.0–0.4 eV | — | — |
+| **Dark Energy** $w_0$ | −1.15 to −0.85 | — | — |
+| **Dark Energy** $w_a$ | −0.30 to +0.30 | — | — |
+| **Modified Gravity param.** | None (ΛCDM) | $\|f_{R_0}\|$: 10⁻⁷–10⁻⁴ | $H_0 r_c$: 0.2–20 |
+| **Scale factor** $a$ (z-range) | 0.4–1.0 (z: 0–1.5) | 0.25–1.0 (z: 0–3) | No explicit $a$ param. |
+| **k-range** $[h \text{ Mpc}^{-1}]$ | $[10^{-2}, 5]$ | $[0.03, 10]$ | $[0.01, 5]$ |
+| **Redshift range** | 0–1.5 | 0–3 | 0–2 |
+| **Accuracy** | ~1% | ~1–3% | ~2–3% |
+| **Primary Output** | Full $P(k)$ [ΛCDM] | Boost factor $B(k)$ | Boost factor $B(k)$ |
+
+### Key Notes on $A_s$:
+
+* **Bacco**: Uses $\sigma_8$ internally but can be converted to $A_s$ through ΛCDM linear theory. Typical value ~1.7×10⁻⁹ at k = 0.05 Mpc⁻¹.
+* **e-MANTIS**: Uses internal normalization with $A_s$ implicitly handled through $\sigma_8$ mapping. The f(R) boost factor is computed relative to ΛCDM predictions.
+* **nDGP**: Explicitly uses $A_s \in [1.7–2.5] \times 10^{-9}$ as a direct input parameter in the nonlinear regime.
 
 ### Interpretation and Visualization
 
