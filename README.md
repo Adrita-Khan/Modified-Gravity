@@ -156,6 +156,23 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 * **e-MANTIS**: Uses internal normalization with $A_s$ implicitly handled through $\sigma_8$ mapping. The f(R) boost factor is computed relative to ΛCDM predictions.
 * **nDGP**: Explicitly uses $A_s \in [1.7–2.5] \times 10^{-9}$ as a direct input parameter in the nonlinear regime.
 
+
+
+
+## Parameters we are using
+
+| Parameter | Bacco (Nonlinear ΛCDM P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
+|-----------|------------------------------|-----------------------------|------------------------|
+| **Cold matter density** $\Omega_{cb}$ | 0.23 – 0.40 | 0.155 – 0.465 | 0.28 – 0.36 |
+| **Primordial amplitude** $A_s$ | $\sim 1.7 \times 10^{-9}$ (tuned from $\sigma_8$) | $\sim (1.5–2.0) \times 10^{-9}$ (internal) | $(1.7–2.5)\times 10^{-9}$ |
+| **Hubble parameter** $h$ | 0.60 – 0.80 | 0.55 – 0.85 | 0.61 – 0.73 |
+| **Bias** $b_0$ | — | — | — |
+| **Modified Gravity param.**<br/>$\lvert f_{R0} \rvert$ | None (ΛCDM) | $10^{-7} – 10^{-4}$ | — |
+| **Modified Gravity param.**<br/>$H_0 r_c$ | None (ΛCDM) | — | 0.2 – 20 |
+
+
+
+
 ### Interpretation and Visualization
 
 | Analysis Type | Description |
