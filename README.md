@@ -105,7 +105,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 
 ## Nonlinear Parameter Comparison: Bacco, e-MANTIS, and nDGP (using $\sigma_8$)
 
-| Parameter | Bacco (Nonlinear P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
+| Parameter | Bacco (Nonlinear ΛCDM P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
 |-----------|------------------------|----------------------|-----------------|
 | **Cold matter density** $\Omega_{cb}$ | 0.23–0.40 | 0.155–0.465 | 0.28–0.36 |
 | **Baryon density** $\Omega_b$ | 0.04–0.06 | 0.037–0.062 | 0.04–0.06 |
@@ -133,7 +133,7 @@ Multiple emulators were explored, including **nDGP**, **e-mantis**, **Bacco**, *
 
 ## Nonlinear Parameter Comparison: Bacco, e-MANTIS, and nDGP (Using $A_s$)
 
-| Parameter | Bacco (Nonlinear P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
+| Parameter | Bacco (Nonlinear ΛCDM P(k)) | e-MANTIS (f(R) P(k)) | nDGP (DGP P(k)) |
 |-----------|------------------------|----------------------|-----------------|
 | **Cold matter density** $\Omega_{cb}$ | 0.23–0.40 | 0.155–0.465 | 0.28–0.36 |
 | **Baryon density** $\Omega_b$ | 0.04–0.06 | 0.037–0.062 | 0.04–0.06 |
