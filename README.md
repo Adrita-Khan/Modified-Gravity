@@ -24,14 +24,20 @@ Cross-correlation techniques break degeneracies between cosmological parameters 
 graph TD
     A[Single Probe] --> B[Parameter Degeneracies]
     A --> C[Systematic Uncertainties]
+    A --> D[Cosmic Variance]
     
-    D[Cross-Correlation] --> E[Break Degeneracies]
-    D --> F[Reduce Systematics]
-    D --> G[Amplify Signal]
+    E[Cross-Correlation] --> F[Break Degeneracies]
+    E --> G[Decorrelate Systematics]
+    E --> H[Cancel Sample Variance]
+    E --> I[Enhance S/N]
     
-    E --> H[Improved Constraints]
-    F --> H
-    G --> H
+    F --> J[Improved Constraints]
+    G --> J
+    H --> J
+    I --> J
+    
+    J --> K[Tighter Cosmological Parameters]
+
 ```
 
 #### Advantages of Cross-Correlation
