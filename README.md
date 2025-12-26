@@ -156,52 +156,50 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 
 ## References
 
-### Emulators
+#### *Emulators • HEALPix/healpy • Angular Power Spectra* 
 
-| Emulator | Papers | Documentation |
-|----------|--------|---------------|
-| **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) | [GitHub](https://github.com/BartolomeoF/nDGPemu) |
-| **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) | [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) |
-| **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) | [Docs](https://baccoemu.readthedocs.io/) |
+| **Emulator** | **Links** | **HEALPix / healpy** | **Links** | **Angular Power Spectra** | **Links** |
+|--------------|-----------|-----------------------|-----------|----------------------------|-----------|
+| **nDGP** | [Fiorini 2023](https://arxiv.org/pdf/2310.05786) • [Docs](https://github.com/BartolomeoF/nDGPemu) | **healpy GitHub** | [healpy](https://github.com/healpy/healpy) | **NaMaster** | [GitHub](https://github.com/LSSTDESC/NaMaster) • [Docs](https://namaster.readthedocs.io/en/latest/) |
+| **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) • [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) | **healpy Docs** | [readthedocs](https://healpy.readthedocs.io/en/latest/) | **NaMaster Covariances** | [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html) |
+| **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) | **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
-### Analysis Tools
 
-| Category | Tool | Documentation |
-|----------|------|---------------|
-| **HEALPix** | healpy | [GitHub](https://github.com/healpy/healpy) • [Docs](https://healpy.readthedocs.io/en/latest/) • [Tutorial](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) |
-| **Angular Power Spectra** | NaMaster | [GitHub](https://github.com/LSSTDESC/NaMaster) • [Docs](https://namaster.readthedocs.io/en/latest/) • [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html) |
-| | CCL | [Docs](https://ccl.readthedocs.io/en/latest/) |
-| **Statistical Sampling** | emcee | [Docs](https://emcee.readthedocs.io/en/stable/) |
-| | pocoMC | [Docs](https://pocomc.readthedocs.io/en/latest/) |
-| | Corner | [Docs](https://corner.readthedocs.io/en/latest/) |
-| | GetDist | [Docs](https://getdist.readthedocs.io/en/latest/) |
+#### *Statistical Tools • LSSTDESC Tutorials* 
 
-### LSSTDESC Tutorials
+| **Statistical / Sampling Tool** | **Docs** | **LSSTDESC Tutorial** | **Notebook** |
+|----------------------------------|----------|------------------------|--------------|
+| **emcee** | [Docs](https://emcee.readthedocs.io/en/stable/) | **C_ℓ in pyccl** | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
+| **pocoMC** | [Docs](https://pocomc.readthedocs.io/en/latest/) | **Emulators (Bacco)** | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
+| **Corner** | [Docs](https://corner.readthedocs.io/en/latest/) | **Tomographic bins** | [Redshift_Distributions.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
+| **GetDist** | [Docs](https://getdist.readthedocs.io/en/latest/) | **emcee + pyccl** | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
-| Topic | Notebook |
-|-------|----------|
-| **C_ℓ in pyccl** | [CellsCorrelations.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/CellsCorrelations.ipynb) |
-| **Emulators (Bacco)** | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
-| **Tomographic bins** | [Redshift_Distributions.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
-| **MCMC with pyccl** | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
 
-### Astropy Cosmology
+#### *Astropy Cosmology*
 
-| Resource | Link |
-|----------|------|
-| **Overview** | [docs.astropy.org/cosmology](https://docs.astropy.org/en/stable/cosmology/index.html) |
-| **Base API** | [astropy.cosmology.Cosmology](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
-| **Models** | [LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) • [FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) • [FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) • [FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
-| **Utilities** | [Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) • [Units](https://docs.astropy.org/en/latest/cosmology/units.html) • [Redshift-Distance Units](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
+| Category | Resource | Link |
+|----------|----------|------|
+| **General** | Overview | [docs.astropy.org/cosmology](https://docs.astropy.org/en/stable/cosmology/index.html) |
+| | Base API | [astropy.cosmology.Cosmology](https://docs.astropy.org/en/latest/api/astropy.cosmology.Cosmology.html) |
+| | Units | [cosmology/units](https://docs.astropy.org/en/latest/cosmology/units.html) |
+| **Models** | LambdaCDM | [astropy.cosmology.LambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.LambdaCDM.html) |
+| | FlatLambdaCDM | [astropy.cosmology.FlatLambdaCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatLambdaCDM.html) |
+| | FlatwCDM | [astropy.cosmology.FlatwCDM](https://docs.astropy.org/en/stable/api/astropy.cosmology.FlatwCDM.html) |
+| | FLRW | [astropy.cosmology.FLRW](https://docs.astropy.org/en/stable/api/astropy.cosmology.FLRW.html) |
+| **Utilities** | Planck18 | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
+| | Redshift-Distance Units | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
-*More references available in the extended reference list: [here](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md)*
+
+
+
+*More references can be found in the extended reference list: [here](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md)*
 
 ---
 
 ## Contact
 
 **Adrita Khan**  
-[Email](mailto:adrita.khan.official@gmail.com) • [LinkedIn](https://www.linkedin.com/in/adrita-khan) • [Twitter](https://x.com/Adrita_)
+[Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
 
 ---
 
