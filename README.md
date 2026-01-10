@@ -9,7 +9,12 @@
 
 A project of [Dunlap Institute](https://www.dunlap.utoronto.ca/) in collaboration with [CCDS](https://ccds.ai/) and [CASSA](https://cassa.site/) to **forecast signatures of modified gravity theories** through cross-correlation analyses.
 
+
 ---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=ff8c00&center=true&vCenter=true&repeat=true&width=820&lines=Modified+Gravity+Forecasting;Galaxy-Galaxy+Clustering+%7C+C%E2%84%93%E1%B5%8D%E1%B5%8D;Galaxy-CMB+Lensing+Cross-Correlation;f(R)+Gravity+%7C+DGP+Braneworld;Fisher+Matrix+Analysis;Multi-Tracer+Approach;nDGP+%7C+e-MANTIS+%7C+Bacco+Emulators;Breaking+Parameter+Degeneracies;Angular+Power+Spectra+C%E2%84%93;Weak+Lensing+%26+Galaxy+Surveys;LSST%2FDESC+%7C+Simons+Observatory;Scale-Dependent+Growth+Rates;Boost+Factor+Predictions;Cosmic+Acceleration+Without+Dark+Energy;Poisson+Equation+Modifications;Cross-Correlation+Signal+Enhancement" alt="Typing SVG" />
+</p>
 
 ## Overview
 
@@ -39,6 +44,8 @@ graph TD
     
     J --> K[Tighter Cosmological Parameters]
 ```
+
+
 
 #### Key Advantages
 
