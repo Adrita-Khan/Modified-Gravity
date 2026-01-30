@@ -129,5 +129,4 @@ def print_diagnostics(z_grid, k, ell, cosmo_params, D0, D_vals, Cl_gg_gr, Cl_kg_
     print("✓ CMB lensing kernel computed with correct units")
     print("✓ Comoving distances from pyccl.comoving_radial_distance")
     print("✓ Hubble function from pyccl.background.h_over_h0")
-    print("✓ Results ready for comparison to Planck + DES observations")
     print("\n" + "="*70)
