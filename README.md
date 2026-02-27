@@ -9,6 +9,7 @@
 
 A project of [Dunlap Institute](https://www.dunlap.utoronto.ca/) in collaboration with [CCDS](https://ccds.ai/) and [CASSA](https://cassa.site/) to **forecast signatures of modified gravity theories** through cross-correlation analyses.
 
+> **Status:** We are currently developing theoretical predictions and forecasts using emulators. These results will be validated against observational data upon the public release of the LSST dataset.
 
 ---
 
@@ -45,8 +46,6 @@ graph TD
     J --> K[Tighter Cosmological Parameters]
 ```
 
-
-
 #### Key Advantages
 
 | Advantage | Description |
@@ -77,7 +76,7 @@ graph TD
 
 ## Project Goals
 
-This project calculates and analyzes **galaxy–galaxy power spectra** ($C_\ell^{gg}$) and **galaxy–CMB lensing cross-power spectra** ($C_\ell^{\kappa g}$) using theoretical models including **nDGP**, **e-mantis**, and **Bacco** emulators.
+This project calculates and analyzes **galaxy–galaxy power spectra** ($C_\ell^{gg}$) and **galaxy–CMB lensing cross-power spectra** ($C_\ell^{\kappa g}$) using theoretical models including **nDGP**, **e-mantis**, and **Bacco** emulators. We are currently developing theoretical predictions and forecasts using these emulators; these predictions will be verified against observational data upon the public release of the LSST dataset.
 
 ### Forecasting Pipeline
 
@@ -96,7 +95,7 @@ The framework forecasts the ability of future cosmological surveys to constrain 
 
 ### Theoretical Framework
 
-The project uses a **multi-tracer approach**, combining data from different sources to enhance signal-to-noise and reduce systematics through power spectra analysis.
+The project uses a **multi-tracer approach**, combining data from different sources to enhance signal-to-noise and reduce systematics through power spectra analysis. At this stage, all results represent theoretical forecasts produced using emulators; observational validation will follow upon the public release of LSST data.
 
 ### Statistical Analysis Methods
 
@@ -159,11 +158,13 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 | **Survey Specifications** | Simulate realistic measurements with survey details |
 | **Bias Evaluation** | Identify biases and systematics in parameter estimation due to MG effects |
 
+All analyses at this stage constitute theoretical forecasts developed using emulators. Observational verification will be carried out once LSST releases its data.
+
 ---
 
 ## References
 
-#### *Emulators • HEALPix/healpy • Angular Power Spectra* 
+#### *Emulators • HEALPix/healpy • Angular Power Spectra*
 
 | **Emulator** | **Links** | **HEALPix / healpy** | **Links** | **Angular Power Spectra** | **Links** |
 |--------------|-----------|-----------------------|-----------|----------------------------|-----------|
@@ -171,8 +172,7 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 | **e-mantis** | [Sáez-Casares 2023](https://arxiv.org/pdf/2303.08899) • [Docs](https://e-mantis.pages.obspm.fr/e-mantis/main/index.html) | **healpy Docs** | [readthedocs](https://healpy.readthedocs.io/en/latest/) | **NaMaster Covariances** | [Covariances](https://namaster.readthedocs.io/en/latest/3Covariances.html) |
 | **Bacco** | [Aricò 2020](https://arxiv.org/pdf/2011.15018) • [Docs](https://baccoemu.readthedocs.io/) | **Tutorial** | [healpy-sims.ipynb](https://github.com/tanveerkarim/myTutorials/blob/main/notebooks/healpy-sims.ipynb) | **CCL** | [Docs](https://ccl.readthedocs.io/en/latest/) |
 
-
-#### *Statistical Tools • LSSTDESC Tutorials* 
+#### *Statistical Tools • LSSTDESC Tutorials*
 
 | **Statistical / Sampling Tool** | **Docs** | **LSSTDESC Tutorial** | **Notebook** |
 |----------------------------------|----------|------------------------|--------------|
@@ -180,7 +180,6 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 | **pocoMC** | [Docs](https://pocomc.readthedocs.io/en/latest/) | **Emulators (Bacco)** | [Cosmological_Emulator.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/Cosmological_Emulator.ipynb) |
 | **Corner** | [Docs](https://corner.readthedocs.io/en/latest/) | **Tomographic bins** | [Redshift_Distributions.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/LSST_SRD_Redshift_Distributions_and_Binning.ipynb) |
 | **GetDist** | [Docs](https://getdist.readthedocs.io/en/latest/) | **emcee + pyccl** | [MCMC Likelihood Analysis.ipynb](https://github.com/LSSTDESC/CCLX/blob/master/MCMC%20Likelihood%20Analysis.ipynb) |
-
 
 #### *Astropy Cosmology*
 
@@ -196,9 +195,6 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 | **Utilities** | Planck18 | [astropy.cosmology.realizations.Planck18](https://docs.astropy.org/en/latest/api/astropy.cosmology.realizations.Planck18.html) |
 | | Redshift-Distance Units | [cosmology.units.redshift_distance](https://docs.astropy.org/en/stable/api/astropy.cosmology.units.redshift_distance.html) |
 
-
-
-
 *More references can be found in the extended reference list: [here](https://github.com/Adrita-Khan/Modified-Gravity/blob/main/references.md)*
 
 ---
@@ -210,4 +206,4 @@ Multiple emulators were explored (**MGemu**, **fRemu**, **Cosmopower**). Ultimat
 
 ---
 
-*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations.*
+*This repository offers a comprehensive resource for understanding, testing, and contributing to the Modified Gravity project. It includes theoretical models and tools for computing cross-correlated power spectra, focusing on testing theories like f(R) and DGP using advanced computational methods and survey simulations. The current results represent theoretical forecasts and emulator-based predictions; observational verification will be conducted upon the public release of LSST data.*
