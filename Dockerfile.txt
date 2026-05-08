@@ -1,6 +1,7 @@
-FROM tensorflow/tensorflow:latest-gpu
+ls ../../../
 
-WORKDIR /app
 
-COPY . /app
-
+cd ~                    # Go to home
+ls -l                   # See all files/folders
+cd Documents            # (If you have a folder called Documents)
+ls -l                   # View files in that folder
